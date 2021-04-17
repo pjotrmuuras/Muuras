@@ -1,6 +1,8 @@
 .ams-container {
     // width: 100vw;
     padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
 
     .ams-img-container {
         width: 80vw;
@@ -11,19 +13,33 @@
             width: 80vw;
         }
     }
+
+    .ams-text-container {
+        width: 80vw;
+        margin: 0 auto;
+    }
+}
+
+.ams_large-container {
+    padding: 2rem;
 }
 
 .ams_large {
-    width: 80vw;
+    max-width: 80vw;
     margin: 0 auto;
     position: relative;
     z-index: -1;
 
+    img {
+        width: 80vw;
+    }
+
     .ams_large_text {
         z-index: 1;
         position: absolute;
-        margin-top: -15rem;
+        margin-top: -17rem;
         background-color: rgba(0, 0, 0, 0.5);
         color: #fff;
+        padding: 1rem 2rem;
     }
 }

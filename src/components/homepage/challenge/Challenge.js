@@ -4,6 +4,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './challenge.scss';
 import translate from '../../i18n/translate';
+import {Button} from '../../Button';
 
 export const Challenge = () => {
     useEffect(() => {
@@ -20,6 +21,14 @@ export const Challenge = () => {
                 <h2>{translate('ChallengeData.title')}</h2>
                 <h5>{translate('ChallengeData.date')}</h5>
                 <p>{translate('ChallengeData.description')}</p>
+                <a href="https://www.bluecity.nl/blog/bluecity-circular-challenge-hoogbouw/" target='_blank' rel="noreferrer">
+                        <Button
+                            className='btn'
+                            buttonStyle='btn-primary'
+                            buttonSize='btn--lge'>
+                            {translate('ChallengeData.button')}
+                        </Button>
+                </a>
             </div>        
         </div>
     )

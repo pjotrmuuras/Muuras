@@ -12,31 +12,50 @@
 }
 
 .btn-primary {
-    background-color: #fff;
-    color: #232323;
+    // background-color: #fff;
+    background-color:#15341c;
+    color: #fff;
     border: 1px solid #232323;
+    transition: all 0.5s ease-in-out;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .btn--outline {
-    background-color: transparent;
-    // color: #fff;
-    color: #232323;
+    // color: #232323;
+    background-color: #fff;
     padding: 0.5em 1.2em;
     border: 1px solid #232323;
-    transition: all 0.3s ease-out;
+    transition: all 0.5s ease-in-out;
+
+    a {
+        text-decoration: none;
+        color: #15341c;
+    }
 }
 
-.btn-med {
+.btn--outline:hover {
+    background-color: #4daa57;
+    transition: all 0.5s ease-in-out;
+
+    a {
+        color: #fff;
+    }
+}
+
+.btn--med {
     padding: 0.5em 1.2em;
 }
 
-.btn-lge {
+.btn--lge {
     padding: 0.8em 1.4em;
     font-size: 1.2em;
 }
 
-.btn--med:hover, .btn--lge:hover {
-    background: #fff;
-    color: #232323;
-    transition: all 0.3s ease-out;
+.btn-primary:hover {
+    background-color: #4daa57;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
 }

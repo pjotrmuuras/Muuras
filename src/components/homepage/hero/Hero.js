@@ -29,9 +29,9 @@ export const Hero = () => {
             <Link to='/vertical-swamp'>
                 <Button
                     className='btn'
-                    buttonStyle='btn--primary'
+                    buttonStyle='btn-primary'
                     buttonSize='btn--lge'>
-                        {isShown ? 'Find Out More...' : 'Scroll Down'}
+                        {isShown ? translate('banner.button1') : translate('banner.button2')}
                 </Button>
             </Link>
             </div>

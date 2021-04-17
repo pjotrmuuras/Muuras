@@ -24,9 +24,9 @@ export const SwampSection = () => {
                         <Link to='/vertical-swamp'>
                         <Button
                             className='btn'
-                            buttonStyle='btn--outline'
+                            buttonStyle='btn-primary'
                             buttonSize='btn--lge'>
-                            Learn More
+                            {translate('swamp.button')}
                         </Button>
                         </Link>
                     </div>
