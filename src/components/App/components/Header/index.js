@@ -3,8 +3,20 @@ import {Button} from '../../../Button';
 import './navbar.scss';
 import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom'
+import {useContext, useCallback} from 'react';
+import {LOCALES} from '../../../i18n/constants';
+import {AppContext} from '../../../Context';
 
 const Header = () => {
+    const {state, dispatch} = useContext(AppContext);
+
+    const setLanguage = useCallback((locale) => {
+        dispatch({
+            type: 'setLocale',
+            locale
+        })
+    }, [])
+
     const [clicked, setClicked] = useState(false);
     const [button, setButton] = useState(true);
 
@@ -29,7 +41,7 @@ const Header = () => {
         'home': '/home',
         'about': '/about',
         'team': '/team',
-        'contact': 'https://site.com/contact'
+        'contact': '/contact'
     }
 
     return (
@@ -37,20 +49,33 @@ const Header = () => {
             <nav className='navbar-container'>
                 <div >
                 <div className='logo-container'>
-                         <Link to='/' className='navbar-logo' onClick={closeMenuMobile}>
-                             <img src='img/muuras.png' alt='' height={50}/>
-                         </Link>
-                     </div>
-                <ul>
+                    <Link to='/' className='navbar-logo' onClick={closeMenuMobile}>
+                        <img src='img/muuras.png' alt='' height={50}/>
+                    </Link>
+                </div>
+                <div className='menu-icon' onClick={handleClick}>
+                    <i id='bars-hover' className={clicked ? 'fas fa-times' : 'fas fa-bars'}/>
+                </div>
+                <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
                     {Object.keys(menu).map(key => (
-                        <li key={key}>
-                            <a href={menu[key]}>
+                        <li className='nav-item' key={key} onClick={closeMenuMobile}>
+                            <a href={menu[key]} className='nav-link'>
                                 <FormattedMessage id={`menu.${key}`}/>
                             </a>
                         </li>
                     ))}
                 </ul>
+                    <img src='./img/uk-flag.jpg' alt='english' className='flag' onClick={() => setLanguage(LOCALES.ENGLISH)} disabled={state.locale === LOCALES.ENGLISH} />
+
+                    <img className='flag' src='./img/netherlands-flag.jpg' alt='dutch' disabled={state.locale === LOCALES.DUTCH} onClick={() => setLanguage(LOCALES.DUTCH)}/>
                 </div>
+                {button && <Button buttonStyle='btn--primary'>
+                       <Link to='/contact' className='contact-btn'>
+                      
+                         Contact
+                         </Link>
+                     </Button>}
+
             </nav>
         </header>
     )
