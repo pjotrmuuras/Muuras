@@ -19,17 +19,11 @@ const Footer = () => {
     return (
         <footer className='container'>
              <div className='icon-container'>
-             {state.locale === LOCALES.DUTCH ? <img src='./img/uk-flag.jpg' alt='english' className='flag' onClick={() => setLanguage(LOCALES.ENGLISH)} /> : null}
-            {state.locale === LOCALES.ENGLISH ?<img className='flag' src='./img/netherlands-flag.jpg' alt='dutch'  onClick={() => setLanguage(LOCALES.DUTCH)}/> : null}
-                {/* <li>
-                    <button disabled={state.locale === LOCALES.ENGLISH} onClick={() => setLanguage(LOCALES.ENGLISH)}>English</button>
-                </li>
-                <li>
-                    <button disabled={state.locale === LOCALES.DUTCH} onClick={() => setLanguage(LOCALES.DUTCH)}>Dutch</button>
-                </li> */}
                 <a href='mailto:pjotr@muuras.nl'>
                 <Email className='icon'fontSize='large'/>
                 </a>
+                {state.locale === LOCALES.DUTCH ? <img src='./img/uk-flag.jpg' alt='english' className='flag footer-icon' onClick={() => setLanguage(LOCALES.ENGLISH)} /> : null}
+                {state.locale === LOCALES.ENGLISH ?<img className='flag footer-icon' src='./img/netherlands-flag.jpg' alt='dutch'  onClick={() => setLanguage(LOCALES.DUTCH)}/> : null}
                 <a href='https://www.linkedin.com/company/muuras/' target='_blank' rel="noreferrer">
                     <LinkedInIcon className='icon'fontSize='large'/>
                 </a>
