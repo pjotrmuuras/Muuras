@@ -25,6 +25,13 @@ export default {
                 date: 'April-June 2020',
                 description: 'In June 2020, we won the Circular Challenge: High-rise at BlueCity010. We worked together with the waterboard of Schieland & Krimpenerwaard to develop a in-house solution to save wastewater in highrise buildings.',
                 image: './img/circular-change.png'
+            },
+            banner: {
+                description: 'A natural solution for urban wastewater'
+            },
+            swamp: {
+                title: 'We Put Swamps on Walls',
+                description: 'Muuras develops green vertical wetland filters that can provide a range of environmental benefits.'
             }
     }
 }

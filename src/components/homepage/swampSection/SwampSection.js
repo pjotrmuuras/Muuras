@@ -4,6 +4,7 @@ import {Button} from '../../Button';
 import {Link} from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import translate from '../../i18n/translate';
 
 export const SwampSection = () => {
 
@@ -14,11 +15,11 @@ export const SwampSection = () => {
 
     return (
         <div className='swamp-container'>
-            <h2 data-aos='fade-left'>We Put Swamps on Walls</h2>
+            <h2 data-aos='fade-left'>{translate('swamp.title')}</h2>
             
             <div className='swamp-info'>
                 <div className='swamp-text'>
-                    <p>Muuras develops green vertical wetland filters that can provide a range of environmental benefits.</p>
+                    <p>{translate('swamp.description')}</p>
                     <div className='btn-container'>
                         <Link to='/vertical-swamp'>
                         <Button

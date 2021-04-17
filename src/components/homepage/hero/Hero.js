@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import {Link} from 'react-router-dom';
 import {Button} from '../../Button';
+import translate from '../../i18n/translate';
 
 export const Hero = () => {
     const [isShown, setIsShown] = useState(true);
@@ -18,7 +19,7 @@ export const Hero = () => {
             <div className='text-container'>
                 <div className='text' data-aos='fade-right'>
                     <h1>Muuras</h1>
-                    <h3>A natural solution for urban wastewater</h3>
+                    <h3>{translate('banner.description')}</h3>
                 </div>
            
             <div className='hero-btns'

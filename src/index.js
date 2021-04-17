@@ -9,7 +9,11 @@ import {BrowserRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-        <App />
+        <Router>
+        <ScrollToTop>
+          <App />
+        </ScrollToTop>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

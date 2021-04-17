@@ -25,12 +25,6 @@ export const AMS = () => {
     window.addEventListener('resize', isSmallerScreen);
 
     return (
-        // <div>
-        //     <h2>{translate('AMSData.title')}</h2>
-        //     <h5>{translate('AMSData.date')}</h5>
-        //     <p>{translate('AMSData.description')}</p>
-        // </div>
-
         <div className='ams-container'>
             {smallScreen ? 
             <>
