@@ -18,7 +18,7 @@ export const SwampSection = () => {
             <h2 data-aos='fade-left'>{translate('swamp.title')}</h2>
             
             <div className='swamp-info'>
-                <div className='swamp-text'>
+                <div className='swamp-text' data-aos='fade-left'>
                     <p>{translate('swamp.description')}</p>
                     <div className='btn-container'>
                         <Link to='/vertical-swamp'>
@@ -31,7 +31,7 @@ export const SwampSection = () => {
                         </Link>
                     </div>
                 </div>
-                <div className='swamp-img'>
+                <div className='swamp-img' data-aos='fade-right'>
                     <img src='./img/muuras-building.jpg' alt='Muuras building'/>
                 </div>
             </div>

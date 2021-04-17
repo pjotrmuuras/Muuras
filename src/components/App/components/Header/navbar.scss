@@ -148,11 +148,19 @@
     }
 
     .nav-flags {
-      // display: flex;
-      // justify-content: center;
+      display: flex;
+      justify-content: center;
       // margin: 0 auto;
       // border: 2px solid red;
-      text-align: center;
+      // text-align: center;
+
+      .nav-flag {
+        margin-left: -7rem;
+      }
+      .flag {
+      height: 38px;
+      border-radius: 12px;
+      }
     }
   
     .nav-link:hover {
