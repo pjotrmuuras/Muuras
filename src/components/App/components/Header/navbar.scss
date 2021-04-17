@@ -43,6 +43,10 @@
     }
   }
   
+  .navbar-logo {
+    cursor: pointer;
+  }
+
   .nav-menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -89,11 +93,12 @@
     height: 25px;
     margin-left: 0.25rem;
     // margin-right: 0.25rem;
-    margin-top: 1.5rem;
+    margin-top: 1.7rem;
   }
 
   .flag:hover {
     transform: scale(1.1);
+    cursor: pointer;
   }
   
   .fa-bars {
@@ -142,8 +147,12 @@
       display: table;
     }
 
-    .flags {
-      margin: 0 auto;
+    .nav-flags {
+      // display: flex;
+      // justify-content: center;
+      // margin: 0 auto;
+      // border: 2px solid red;
+      text-align: center;
     }
   
     .nav-link:hover {

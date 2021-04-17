@@ -5,6 +5,7 @@ import {Switch, Route} from 'react-router-dom';
 import Homepage from './Homepage';
 import Teampage from './Teampage';
 import WhatWeDopage from './WhatWeDopage';
+import Contactpage from './Contactpage';
 // import Form from './components/Form';
 // import { AMS } from '../homepage/ams/AMS';
 // import {Hero} from '../homepage/hero/Hero'
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/' component={Homepage}/>
         <Route path='/team' component={Teampage}/>
         <Route path='/about' component={WhatWeDopage}/>
+        <Route path='/contact' component={Contactpage}/>
         {/* <Route path='/vertical-swamp' component={WhatWeDo}/>
         <Route path='/contact' component={Contact}/> */}
       </Switch>

@@ -63,13 +63,15 @@ const Header = () => {
                             </a>
                         </li>
                     ))}
-                    <li className='nav-flags'>
+                    <div className='nav-flags'>
+                    <li>
                         {state.locale === LOCALES.DUTCH ? <img src='./img/uk-flag.jpg' alt='english' className='flag' onClick={() => setLanguage(LOCALES.ENGLISH)} /> : null}
                         {state.locale === LOCALES.ENGLISH ?<img className='flag' src='./img/netherlands-flag.jpg' alt='dutch'  onClick={() => setLanguage(LOCALES.DUTCH)}/> : null}
-                        
+                    
                       {/* <img src='./img/uk-flag.jpg' alt='english' className='flag' onClick={() => setLanguage(LOCALES.ENGLISH)} disabled={state.locale === LOCALES.ENGLISH} /> */}
                     {/* <img className='flag' src='./img/netherlands-flag.jpg' alt='dutch' disabled={state.locale === LOCALES.DUTCH} onClick={() => setLanguage(LOCALES.DUTCH)}/> */}
                     </li>
+                    </div>
                 </ul>
                    
                 {/* </div> */}
