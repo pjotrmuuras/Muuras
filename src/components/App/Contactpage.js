@@ -1,6 +1,11 @@
+import React, {useEffect} from 'react';
 import translate from '../i18n/translate';
 
 const Contactpage = () => {
+    useEffect(() => {
+        document.title = 'Muuras - Contact'
+    })
+
     return (
         <div className='contact-container'>
             <h1>{translate('contact.title')}</h1>

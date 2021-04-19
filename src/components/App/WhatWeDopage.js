@@ -7,6 +7,7 @@ import planter from '../../components/planter.mp4';
 
 const WhatWeDopage = () => {
     useEffect(() => {
+        document.title = 'Muuras - What We Do'
         Aos.init({duration: 1500});
         Aos.refresh({duration: 1500});
     }, [])
