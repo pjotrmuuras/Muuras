@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from 'react';
-import {Button} from '../../../Button';
+import React, {useState} from 'react';
+// import {Button} from '../../../Button';
 import './navbar.scss';
 import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom'
@@ -18,24 +18,24 @@ const Header = () => {
     }, [dispatch])
 
     const [clicked, setClicked] = useState(false);
-    const [button, setButton] = useState(true);
+    // const [button, setButton] = useState(true);
 
     const handleClick = () => {setClicked(!clicked)};
     const closeMenuMobile = () => setClicked(false);
 
-    const showButton = () => {
-        if(window.innerWidth <= 960) {
-            setButton(false)
-        } else {
-            setButton(true)
-        }
-    }
+    // const showButton = () => {
+    //     if(window.innerWidth <= 960) {
+    //         setButton(false)
+    //     } else {
+    //         setButton(true)
+    //     }
+    // }
 
-    useEffect(() => {
-        showButton();
-    }, []);
+    // useEffect(() => {
+    //     showButton();
+    // }, []);
 
-    window.addEventListener('resize', showButton);
+    // window.addEventListener('resize', showButton);
 
     const menu = {
         'home': '/',
@@ -72,16 +72,7 @@ const Header = () => {
                     {/* <img className='flag' src='./img/netherlands-flag.jpg' alt='dutch' disabled={state.locale === LOCALES.DUTCH} onClick={() => setLanguage(LOCALES.DUTCH)}/> */}
                     </li>
                     </div>
-                </ul>
-                   
-                {/* </div> */}
-                {/* {button && <Button buttonStyle='btn--primary'>
-                       <Link to='/contact' className='contact-btn'>
-                      
-                         Contact
-                         </Link>
-                     </Button>} */}
-
+                </ul>             
             </nav>
         </header>
     )

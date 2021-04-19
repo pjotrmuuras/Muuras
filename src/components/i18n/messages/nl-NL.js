@@ -74,6 +74,29 @@ export default {
                  text: 'Het plaatsen van een moeras aan uw muur kan veel voordelen hebben voor uw huis, appartementsgebouw of buurt. Ons verticale moeras kan geluidsoverlast verminderen, helpen bij thermische isolatie en prachtige moerasplanten introduceren.'
               }
         },
+        whatWeDoImgs: {
+            water: {
+                text: 'Water natuurlijk zuiveren'
+            },
+            city: {
+                text: 'De stad afkoelen'
+            },
+            biodiversity: {
+                text: 'De stedelijke biodiversiteit koesteren'
+            },
+            co2: {
+                text: 'Koolstofdioxide opnemen'
+            },
+            heat: {
+                text: 'Isolerende thermische warmte'
+            },
+            flowers: {
+                text: 'Introductie van prachtige waterrijke bloemsoorten'
+            },
+            noise: {
+                text: 'Bestrijding van geluidsoverlast'
+            }
+        },
         contact: {
             title: 'Krijg je eigen Marsh-plan!',
             description: 'Neem contact met ons op voor meer informatie over ons idee of productspecificaties. We zoeken ook graag naar manieren om met u samen te werken.',

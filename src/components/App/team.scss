@@ -14,21 +14,27 @@
 
     .card-container {
         display: flex;
+        // justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
     .team-card {
         // height: rem;
+        // display: flex;
+        // justify
+        display: flex;
         flex-direction: column;
-        margin: 1rem;
+        // margin: 1rem;
         padding: 1rem;
         width: 18rem;
         margin: 0 auto;
+        // margin-right: 1rem;
+        // margin-left: 1rem;
         margin-bottom: 2rem;
         // align-items: center;
         // justify-content: center;
-        border: 2px solid gray;
+        // border: 2px solid gray;
     }
 
     .card-img {

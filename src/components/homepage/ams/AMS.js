@@ -36,15 +36,16 @@ export const AMS = () => {
             <h2>{translate('AMSData.title')}</h2>
             <h5>{translate('AMSData.date')}</h5>
             <p>{translate('AMSData.description')}</p>
-        </div> 
-        <a href="https://www.ams-institute.org/how-we-work/stimulating-entrepreneurship-main/ams-startup-booster-selected-teams/" target='_blank' rel="noreferrer">
+            <a href="https://www.ams-institute.org/how-we-work/stimulating-entrepreneurship-main/ams-startup-booster-selected-teams/" target='_blank' rel="noreferrer">
                         <Button
                             className='btn'
                             buttonStyle='btn-primary'
                             buttonSize='btn--lge'>
                             {translate('AMSData.button')}
                         </Button>
-                </a>
+            </a>
+        </div> 
+       
         </> : 
          <div data-aos="fade-right" className='ams_large'>
             <img src='./img/canal.png' alt='Circular Cycle'/>

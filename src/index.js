@@ -1,19 +1,19 @@
-import React, {Suspense} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './components/';
 import reportWebVitals from './reportWebVitals';
-import ScrollToTop from 'react-router-scroll-top';
-import {BrowserRouter as Router} from 'react-router-dom';
+// import ScrollToTop from 'react-router-scroll-top';
+// import {BrowserRouter as Router} from 'react-router-dom';
 // import './i18next';
 
 ReactDOM.render(
   <React.StrictMode>
-        <Router>
-        <ScrollToTop>
+        {/* <Router>
+        <ScrollToTop> */}
           <App />
-        </ScrollToTop>
-    </Router>
+        {/* </ScrollToTop>
+    </Router> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

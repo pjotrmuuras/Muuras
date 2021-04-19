@@ -2,6 +2,8 @@ import React, {useEffect} from 'react';
 import translate from "../i18n/translate";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import './whatwedo.scss';
+import planter from '../../components/planter.mp4';
 
 const WhatWeDopage = () => {
     useEffect(() => {
@@ -11,6 +13,9 @@ const WhatWeDopage = () => {
 
     return (
                 <div className='about-container'>
+                    <div className='video-container'>
+                        <video src={planter} type='video/mp4' autoPlay loop muted playsInline style={{'max-width': '100%'}} />
+                    </div>
                     <div className='item'>
                         <div className='item-text' data-aos='fade-right'>
                             <h2>{translate('whatWeDo.1.title')}</h2>
@@ -40,7 +45,31 @@ const WhatWeDopage = () => {
                     </div>
                     <div className='item'>
                         <div className='item-img' data-aos='fade-right'>
-                            <img src='./img/healthy-environment.png' alt='Healthy Environment'/>
+                            <section className='transition_img-container'>
+                                <img src='./img/small/heat.png' alt='heat' height={250} className='transition-img'/>
+                                <div className='transition'>
+                                    <div className='transition-text'>
+                                        <p>{translate('whatWeDoImgs.heat.text')}</p>
+                                    </div>
+                                </div>
+                            </section>
+                            <section className='transition_img-container'>
+                                <img src='./img/small/flowers.png' alt='flowers' height={250} className='transition-img'/>
+                                <div className='transition'>
+                                    <div className='transition-text'>
+                                        <p>{translate('whatWeDoImgs.flowers.text')}</p>
+                                    </div>
+                                </div>
+                            </section>
+                            <section className='transition_img-container'>
+                                <img src='./img/small/noise.png' alt='noise' height={250} className='transition-img'/>
+                                <div className='transition'>
+                                    <div className='transition-text'>
+                                        <p>{translate('whatWeDoImgs.noise.text')}</p>
+                                    </div>
+                                </div>
+                            </section>
+                            {/* <img src='./img/healthy-environment.png' alt='Healthy Environment'/> */}
                         </div>
                         <div className='item-text' data-aos='fade-left'>
                             <h2>{translate('whatWeDo.4.title')}</h2>

@@ -14,11 +14,10 @@ export const SwampSection = () => {
     }, []) 
 
     return (
-        <div className='swamp-container'>
-            <h2 data-aos='fade-left'>{translate('swamp.title')}</h2>
-            
+        <div className='swamp-container'>  
             <div className='swamp-info'>
                 <div className='swamp-text' data-aos='fade-left'>
+                <h2>{translate('swamp.title')}</h2>
                     <p>{translate('swamp.description')}</p>
                     <div className='btn-container'>
                         <Link to='/vertical-swamp'>

@@ -75,6 +75,29 @@ export default {
                      text: 'Putting a swamp on your wall can have many benefits to your house, apartment building or neighborhood. Our vertical swamp can reduce noise pollution, help with thermal insulation and introduce beautiful wetland plants.'
                   }
             },
+            whatWeDoImgs: {
+                water: {
+                    text: 'Purifying water naturally'
+                },
+                city: {
+                    text: 'Cooling down the city'
+                },
+                biodiversity: {
+                    text: 'Nurturing urban biodiversity'
+                },
+                co2: {
+                    text: 'Taking up carbon dioxide'
+                },
+                heat: {
+                    text: 'Insulating thermal heat'
+                },
+                flowers: {
+                    text: 'Introducing beautiful wetland flower species'
+                },
+                noise: {
+                    text: 'Fighting noise pollution'
+                }
+            },
             contact: {
                 title: 'Get Your Own Marsh Plan!',
                 description: 'Contact us to learn more about our idea or product specifications. We are also happy to find ways to collaborate with you.',
