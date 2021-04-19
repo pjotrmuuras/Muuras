@@ -20,7 +20,7 @@ export const SwampSection = () => {
                 <h2>{translate('swamp.title')}</h2>
                     <p>{translate('swamp.description')}</p>
                     <div className='btn-container'>
-                        <Link to='/vertical-swamp'>
+                        <Link to='/about'>
                         <Button
                             className='btn'
                             buttonStyle='btn-primary'

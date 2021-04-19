@@ -56,12 +56,14 @@ export const AMS = () => {
                 <a href="https://www.ams-institute.org/how-we-work/stimulating-entrepreneurship-main/ams-startup-booster-selected-teams/" target='_blank' rel="noreferrer">
                         <Button
                             className='btn'
+                            id='ams-btn'
                             buttonStyle='btn-primary'
                             buttonSize='btn--lge'>
                             {translate('AMSData.button')}
                         </Button>
                 </a>
             </div>  
+           
         </div> 
         }     
         </div>

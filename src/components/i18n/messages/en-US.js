@@ -76,27 +76,13 @@ export default {
                   }
             },
             whatWeDoImgs: {
-                water: {
-                    text: 'Purifying water naturally'
-                },
-                city: {
-                    text: 'Cooling down the city'
-                },
-                biodiversity: {
-                    text: 'Nurturing urban biodiversity'
-                },
-                co2: {
-                    text: 'Taking up carbon dioxide'
-                },
-                heat: {
-                    text: 'Insulating thermal heat'
-                },
-                flowers: {
-                    text: 'Introducing beautiful wetland flower species'
-                },
-                noise: {
-                    text: 'Fighting noise pollution'
-                }
+                water: 'Purifying water naturally',
+                city: 'Cooling down the city',
+                biodiversity: 'Nurturing urban biodiversity',
+                co2: 'Taking up carbon dioxide',
+                heat: 'Insulating thermal heat',
+                flowers: 'Introducing beautiful wetland flower species',
+                noise: 'Fighting noise pollution'
             },
             contact: {
                 title: 'Get Your Own Marsh Plan!',

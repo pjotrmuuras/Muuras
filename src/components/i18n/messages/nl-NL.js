@@ -75,27 +75,13 @@ export default {
               }
         },
         whatWeDoImgs: {
-            water: {
-                text: 'Water natuurlijk zuiveren'
-            },
-            city: {
-                text: 'De stad afkoelen'
-            },
-            biodiversity: {
-                text: 'De stedelijke biodiversiteit koesteren'
-            },
-            co2: {
-                text: 'Koolstofdioxide opnemen'
-            },
-            heat: {
-                text: 'Isolerende thermische warmte'
-            },
-            flowers: {
-                text: 'Introductie van prachtige waterrijke bloemsoorten'
-            },
-            noise: {
-                text: 'Bestrijding van geluidsoverlast'
-            }
+            water: 'Water natuurlijk zuiveren',
+            city: 'De stad afkoelen',
+            biodiversity:'De stedelijke biodiversiteit koesteren',
+            co2: 'Koolstofdioxide opnemen',
+            heat: 'Isolerende thermische warmte',
+            flowers: 'Introductie van prachtige waterrijke bloemsoorten',
+            noise: 'Bestrijding van geluidsoverlast'
         },
         contact: {
             title: 'Krijg je eigen Marsh-plan!',
