@@ -85,8 +85,8 @@ export default {
                 noise: 'Fighting noise pollution'
             },
             contact: {
-                title: 'Get Your Own Marsh Plan!',
-                description: 'Contact us to learn more about our idea or product specifications. We are also happy to find ways to collaborate with you.',
+                title: 'Get your own Wetland Wall!',
+                description: 'Contact us to learn more about our idea or product specifications. We are also happy to find new ways to collaborate with you.',
                 description2: 'Email us at ',
                 button: 'Contact Us'
             }
