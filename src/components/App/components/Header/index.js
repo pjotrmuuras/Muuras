@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 // import {Button} from '../../../Button';
 import './navbar.scss';
-import {FormattedMessage} from 'react-intl';
+// import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom'
 import {useContext, useCallback} from 'react';
 import {LOCALES} from '../../../i18n/constants';
 import {AppContext} from '../../../Context';
+import translate from '../../../i18n/translate';
 
 const Header = () => {
     const {state, dispatch} = useContext(AppContext);
@@ -56,13 +57,26 @@ const Header = () => {
                     <i id='bars-hover' className={clicked ? 'fas fa-times' : 'fas fa-bars'}/>
                 </div>
                 <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
-                    {Object.keys(menu).map(key => (
-                        <li className='nav-item' key={key} onClick={closeMenuMobile}>
-                            <a href={menu[key]} className='nav-link'>
-                                <FormattedMessage id={`menu.${key}`}/>
-                            </a>
-                        </li>
-                    ))}
+                    <li className='nav-item'>
+                        <Link to='/' className='nav-link' onClick={closeMenuMobile}>
+                            {translate('menu.home')}
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/about' className='nav-link' onClick={closeMenuMobile}>
+                            {translate('menu.about')}
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/team' className='nav-link' onClick={closeMenuMobile}>
+                            {translate('menu.team')}
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/contact' className='nav-link' onClick={closeMenuMobile}>
+                            {translate('menu.contact')}
+                        </Link>
+                    </li>
                     <div className='nav-flags'>
                     <li className='nav-flag'>
                         {state.locale === LOCALES.DUTCH ? <img src='./img/uk-flag.jpg' alt='english' className='flag' onClick={() => setLanguage(LOCALES.ENGLISH)} /> : null}
