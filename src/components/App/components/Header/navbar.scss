@@ -153,7 +153,11 @@
       .flag_header {
         height: 50px;
         border-radius: 12px;
-        }
+      }
+      
+      .flag_header:hover {
+          cursor: pointer;
+      }
   
     .navbar-logo {
       position: absolute;

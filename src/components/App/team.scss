@@ -8,9 +8,10 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    // border: 2px solid red;
-    // justify-content: center;
-    // flex-wrap: wrap;
+    
+    h1 {
+        margin-bottom: 1.2rem;
+    }
 
     .card-container {
         display: flex;
@@ -23,17 +24,10 @@
     }
 
     .team-card {
-        // height: rem;
-        // display: flex;
-        // justify
         display: flex;
         flex-direction: column;
-        // margin: 1rem;
         padding: 1rem;
-        width: 18rem;
-        // margin-right: 0.5rem;
-        // margin-left: 0.5rem;
-        // margin: 0 auto;
+        width: 16.5rem;
         margin-bottom: 2rem;
         // align-items: center;
         // justify-content: center;
@@ -45,16 +39,16 @@
         justify-content: center;
 
         img {
-            // border-radius: 10px;
-            width: 18rem;
+            width: 15rem;
             border-radius: 50%;
-            // width: 20rem;
+            
         }
     }
 
     .card-text {
         h3 {
             text-align: center;
+            margin: 0.75rem;
         }
     }
 
