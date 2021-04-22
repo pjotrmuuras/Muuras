@@ -36,14 +36,6 @@ export const AMS = () => {
             <h2>{translate('AMSData.title')}</h2>
             <h5>{translate('AMSData.date')}</h5>
             <p>{translate('AMSData.description')}</p>
-            <a href="https://www.ams-institute.org/how-we-work/stimulating-entrepreneurship-main/ams-startup-booster-selected-teams/" target='_blank' rel="noreferrer">
-                        <Button
-                            className='btn'
-                            buttonStyle='btn-primary'
-                            buttonSize='btn--lge'>
-                            {translate('AMSData.button')}
-                        </Button>
-            </a>
         </div> 
        
         </> : 
@@ -53,7 +45,8 @@ export const AMS = () => {
                 <h2>{translate('AMSData.title')}</h2>
                 <h5>{translate('AMSData.date')}</h5>
                 <p>{translate('AMSData.description')}</p>
-                <a href="https://www.ams-institute.org/how-we-work/stimulating-entrepreneurship-main/ams-startup-booster-selected-teams/" target='_blank' rel="noreferrer">
+            </div>  
+            {/* <a href="https://www.ams-institute.org/how-we-work/stimulating-entrepreneurship-main/ams-startup-booster-selected-teams/" target='_blank' rel="noreferrer">
                         <Button
                             className='btn'
                             id='ams-btn'
@@ -61,11 +54,19 @@ export const AMS = () => {
                             buttonSize='btn--lge'>
                             {translate('AMSData.button')}
                         </Button>
-                </a>
-            </div>  
-           
+                </a> */}
         </div> 
         }     
+        <div className='ams-button-container'>
+            <a href="https://www.ams-institute.org/how-we-work/stimulating-entrepreneurship-main/ams-startup-booster-selected-teams/" target='_blank' rel="noreferrer">
+                        <Button
+                            className='btn'
+                            buttonStyle='btn-primary'
+                            buttonSize='btn--lge'>
+                            {translate('AMSData.button')}
+                        </Button>
+            </a>
+        </div>
         </div>
     )
 }

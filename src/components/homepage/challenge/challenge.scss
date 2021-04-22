@@ -8,10 +8,24 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 
     .challenge-text-container {
         width: 500px;
         margin-left: 1.5rem;
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        h5 {
+            font-size: 110%;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
     }
 
     .challenge-img-container {

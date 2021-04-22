@@ -1,8 +1,21 @@
 .ams-container {
     // width: 100vw;
     padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    h5 {
+        font-size: 110%;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
 
     .ams-img-container {
         width: 80vw;
@@ -44,6 +57,7 @@
     }
 }
 
-// #ams-btn {
-//     z-index: 1;
-// }
+.ams-button-container {
+    display: flex;
+    justify-content: center;
+}

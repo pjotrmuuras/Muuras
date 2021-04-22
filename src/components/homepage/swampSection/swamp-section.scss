@@ -22,6 +22,7 @@
 
 .swamp-info {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -32,6 +33,14 @@
     // margin-left: 1.5rem;
     // margin-bottom: 1rem;
     margin: 0 1rem 2rem 1rem;
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
 }
 
 .swamp-img {
@@ -41,31 +50,6 @@
     img {
         max-width: 500px;
     }
-    // display: flex;
-    // justify-content: center;
-    // width: 80vw;
-    // margin: 0 auto;
-    // overflow-x: hidden; 
 }
 
-// #hero-btn {
-//     position: absolute;
-//     margin-top: 40rem;
-//     text-align: center;
-// }
 
-// .ams-img-container {
-//     width: 80vw;
-//     margin: 0 auto;
-//     overflow-x: hidden;
-
-//     img {
-//         width: 80vw;
-//     }
-// }
-
-// .ams-text-container {
-//     width: 80vw;
-//     margin: 0 auto;
-// }
-// }
