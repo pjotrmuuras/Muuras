@@ -38,10 +38,10 @@ const Header = () => {
     // window.addEventListener('resize', showButton);
 
     const menu = {
-        'home': '/',
-        'about': '/about',
-        'team': '/team',
-        'contact': '/contact'
+        'home': 'https://muuras-test.netlify.app/',
+        'about': 'https://muuras-test.netlify.app/about',
+        'team': 'https://muuras-test.netlify.app/team',
+        'contact': 'https://muuras-test.netlify.app/contact'
     }
 
     return (
