@@ -46,16 +46,18 @@ const Header = () => {
     }
 
     return (
-        <header className='navbar'>
-            <nav className='navbar-container'>
+        <nav className='navbar'>
+            <div className='navbar-container'>
                 <div className='logo-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMenuMobile}>
                         <img src='img/muuras.png' alt='' height={50}/>
                     </Link>
                 </div>
+
                 <div className='menu-icon' onClick={handleClick}>
                     <i id='bars-hover' className={clicked ? 'fas fa-times' : 'fas fa-bars'}/>
                 </div>
+
                 <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
                         <Link to='/' className='nav-link' onClick={closeMenuMobile}>
@@ -77,7 +79,7 @@ const Header = () => {
                             {translate('menu.contact')}
                         </Link>
                     </li>
-                    <div className='nav-flags'>
+                    {/* <div className='nav-flags'> */}
                     <li className='nav-flag'>
                         {state.locale === LOCALES.DUTCH ? <img src='./img/uk-flag.jpg' alt='english' className='flag' onClick={() => setLanguage(LOCALES.ENGLISH)} /> : null}
                         {state.locale === LOCALES.ENGLISH ?<img className='flag' src='./img/netherlands-flag.jpg' alt='dutch'  onClick={() => setLanguage(LOCALES.DUTCH)}/> : null}
@@ -85,10 +87,10 @@ const Header = () => {
                       {/* <img src='./img/uk-flag.jpg' alt='english' className='flag' onClick={() => setLanguage(LOCALES.ENGLISH)} disabled={state.locale === LOCALES.ENGLISH} /> */}
                     {/* <img className='flag' src='./img/netherlands-flag.jpg' alt='dutch' disabled={state.locale === LOCALES.DUTCH} onClick={() => setLanguage(LOCALES.DUTCH)}/> */}
                     </li>
-                    </div>
+                    {/* </div> */}
                 </ul>             
-            </nav>
-        </header>
+            </div>
+        </nav>
     )
 }
 
