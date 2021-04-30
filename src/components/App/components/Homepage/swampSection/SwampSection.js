@@ -3,7 +3,8 @@ import './swamp-section.scss';
 import {Button} from '../../Button/Button';
 import {Link} from 'react-router-dom';
 import Aos from 'aos';
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
+// import '../../WhatWeDopage/node_modules/aos/dist/aos.css';
 import translate from '../../../../i18n/translate';
 
 export const SwampSection = () => {

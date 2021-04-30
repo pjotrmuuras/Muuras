@@ -1,11 +1,11 @@
 import React, {useEffect} from 'react';
-import translate from "../i18n/translate";
+import translate from "./../i18n/translate";
 import Aos from 'aos';
-import 'aos/dist/aos.css';
-import './components/About/whatwedo.scss';
+import "aos/dist/aos.css";
+import './components/WhatWeDopage/whatwedo.scss';
 import planter from '../../components/planter.mp4';
-import WhatWeDoPics from './WhatWeDoPics';
-import IdeaPics from './IdeaPics';
+import WhatWeDoPics from './components/WhatWeDopage/WhatWeDoPics';
+import IdeaPics from './components/WhatWeDopage/IdeaPics';
 
 const WhatWeDopage = () => {
     useEffect(() => {

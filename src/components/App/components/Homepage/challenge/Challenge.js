@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import Aos from 'aos';
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css"
 import './challenge.scss';
 import translate from '../../../../i18n/translate';
 import {Button} from '../../Button/Button';

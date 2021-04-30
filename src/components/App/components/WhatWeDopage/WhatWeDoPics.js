@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import translate from '../i18n/translate';
+import translate from '../../../i18n/translate';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
