@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import translate from "../i18n/translate";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import './whatwedo.scss';
+import './components/About/whatwedo.scss';
 import planter from '../../components/planter.mp4';
 import WhatWeDoPics from './WhatWeDoPics';
 import IdeaPics from './IdeaPics';

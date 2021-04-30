@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from 'react';
 // import {AMSData} from './AMSData';
 import './ams.scss';
-import translate from '../../i18n/translate';
-import {Button} from '../../Button';
+import translate from '../../../../i18n/translate';
+// import translate from '../../../i18n/translate';
+import {Button} from '../../Button/Button';
 
 export const AMS = () => {
     const [smallScreen, setSmallScreen] = useState(false);

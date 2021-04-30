@@ -1,4 +1,4 @@
-@import '../../../../variables';
+@import '../../../../../variables';
 
 .navbar {
     background: $dark-green;
@@ -17,46 +17,56 @@
     justify-content: center;
     align-items: center;
     height: 10vh;
-    max-width: 100%;
+    width: 100%;
+    // border: 2px solid red;
   }
 
   .navbar-logo {
-    background-color: #fff;
+    // background-color: #fff;
     padding: 0 3px;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 5px;
     cursor: pointer;
     text-decoration: none;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
+    // border: 2px solid red;
     // margin-top: -0.rem;
     height: 2.7rem;
   
     img {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        // margin-left: 0.5rem;
+        margin-right: 1rem;
         font-size: 1.5rem;
     }
   }
 
+  .nav-flag {
+    margin-top: 0.8rem;
+  }
+
+  .nav-flag img:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+  }
+
   .nav-menu {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 80vw;
     justify-content: end;
-    margin-right: 1.5rem;  
-      
+    // margin-right: 1rem;  
+    margin-left: 1rem;  
   }
   
   .nav-item {
     height: 10vh;
 
-    .nav-flag {
-      margin-top: .2rem;
-    }
+    
   
     .nav-link {
         color: #fff;

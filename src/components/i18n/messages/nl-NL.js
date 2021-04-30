@@ -7,6 +7,7 @@ export default {
             home: 'Home',
             about: 'Wat We Doen',
             team: 'Wie We Zijn',
+            qa: 'Q&A',
             contact: 'Contact'
         },
         AMSData: {

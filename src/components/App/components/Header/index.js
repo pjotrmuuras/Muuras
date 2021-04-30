@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
-// import {Button} from '../../../Button';
 import './navbar.scss';
-// import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom'
 import {useContext, useCallback} from 'react';
 import {LOCALES} from '../../../i18n/constants';
@@ -19,38 +17,16 @@ const Header = () => {
     }, [dispatch])
 
     const [clicked, setClicked] = useState(false);
-    // const [button, setButton] = useState(true);
 
     const handleClick = () => {setClicked(!clicked)};
     const closeMenuMobile = () => setClicked(false);
-
-    // const showButton = () => {
-    //     if(window.innerWidth <= 960) {
-    //         setButton(false)
-    //     } else {
-    //         setButton(true)
-    //     }
-    // }
-
-    // useEffect(() => {
-    //     showButton();
-    // }, []);
-
-    // window.addEventListener('resize', showButton);
-
-    const menu = {
-        'home': 'https://muuras-test.netlify.app/',
-        'about': 'https://muuras-test.netlify.app/about',
-        'team': 'https://muuras-test.netlify.app/team',
-        'contact': 'https://muuras-test.netlify.app/contact'
-    }
 
     return (
         <nav className='navbar'>
             <div className='navbar-container'>
                 <div className='logo-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMenuMobile}>
-                        <img src='img/muuras.png' alt='' height={50}/>
+                        <img src='img/logo-navbar.png' alt='' height={50}/>
                     </Link>
                 </div>
 
@@ -72,6 +48,11 @@ const Header = () => {
                     <li className='nav-item'>
                         <Link to='/team' className='nav-link' onClick={closeMenuMobile}>
                             {translate('menu.team')}
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/team' className='nav-link' onClick={closeMenuMobile}>
+                            {translate('menu.qa')}
                         </Link>
                     </li>
                     <li className='nav-item'>

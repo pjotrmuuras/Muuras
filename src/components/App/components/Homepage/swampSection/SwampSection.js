@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react';
 import './swamp-section.scss';
-import {Button} from '../../Button';
+import {Button} from '../../Button/Button';
 import {Link} from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import translate from '../../i18n/translate';
+import translate from '../../../../i18n/translate';
 
 export const SwampSection = () => {
 

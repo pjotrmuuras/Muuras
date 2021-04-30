@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import translate from '../i18n/translate';
-import './team.scss';
+import './components/Team/team.scss';
 
 const Teampage = () => {
     useEffect(() => {

@@ -1,10 +1,9 @@
 import React, {useEffect} from 'react';
-// import {ChallengeData} from './ChallengeData';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './challenge.scss';
-import translate from '../../i18n/translate';
-import {Button} from '../../Button';
+import translate from '../../../../i18n/translate';
+import {Button} from '../../Button/Button';
 
 export const Challenge = () => {
     useEffect(() => {

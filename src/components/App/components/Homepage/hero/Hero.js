@@ -3,8 +3,8 @@ import './hero.scss';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import {Link} from 'react-router-dom';
-import {Button} from '../../Button';
-import translate from '../../i18n/translate';
+import {Button} from '../../Button/Button';
+import translate from '../../../../i18n/translate';
 
 export const Hero = () => {
     const [isShown, setIsShown] = useState(true);

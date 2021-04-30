@@ -8,12 +8,8 @@ export default {
                 home: 'Home',
                 about: 'What We Do',
                 team: 'Our Team',
+                qa: 'Q&A',
                 contact: 'Contact'
-            },
-            form: {
-                name: {
-                    placeholder: 'Enter your name here...'
-                }
             },
             AMSData: {
                 title: 'Boosting at the AMS Institute',
