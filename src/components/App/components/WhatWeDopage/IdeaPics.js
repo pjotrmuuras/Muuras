@@ -10,6 +10,8 @@ const IdeaPics = () => {
     }, [])
 
     return (
+        <div className='item'>
+
         <div className='item-img' id='pictures' data-aos='fade-left'>
         <section className='transition_img-container'>
                 <img src='./img/cropped/water.png' alt='water' className='transition-img'/>
@@ -44,6 +46,12 @@ const IdeaPics = () => {
                 </div>
             </section>
         </div>
+        
+        <div className='item-text green' data-aos='fade-right'>
+            <h2>{translate('whatWeDo.3.title')}</h2>
+            <p>{translate('whatWeDo.3.text')}</p>
+        </div>
+    </div>
     )
 }
 
