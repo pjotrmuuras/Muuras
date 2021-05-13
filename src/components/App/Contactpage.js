@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import translate from '../i18n/translate';
-import './contact.scss';
+import './components/Contactpage/contact.scss';
 
 const Contactpage = () => {
     useEffect(() => {

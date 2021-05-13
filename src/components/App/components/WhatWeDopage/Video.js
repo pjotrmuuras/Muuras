@@ -1,6 +1,5 @@
 import React from 'react';
-// import planter from '../../components/planter.mp4';
-import planter from '../../../../components/planter.mp4';
+import planter from './planter.mp4';
 
 const Video = () => {
     return (

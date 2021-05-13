@@ -6,6 +6,7 @@ import Homepage from './Homepage';
 import Teampage from './Teampage';
 import WhatWeDopage from './WhatWeDopage';
 import Contactpage from './Contactpage';
+import QAPage from './QAPage';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Header/>
       <Switch>
         <Route exact path='/' component={Homepage}/>
-        <Route path='/team' component={Teampage}/>
-        <Route path='/about' component={WhatWeDopage}/>
+        <Route path='/who-we-are' component={Teampage}/>
+        <Route path='/what-we-do' component={WhatWeDopage}/>
+        <Route path='/q&a' component={QAPage} />
         <Route path='/contact' component={Contactpage}/>
       </Switch>
       <Footer/>

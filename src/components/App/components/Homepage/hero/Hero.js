@@ -26,7 +26,7 @@ export const Hero = () => {
                     onMouseEnter={() => setIsShown(false)}
                     onMouseLeave={() => setIsShown(true)}
                 >
-            <Link to='/vertical-swamp'>
+            <Link to='/what-we-do'>
                 <Button
                     className='btn'
                     buttonStyle='btn-primary'

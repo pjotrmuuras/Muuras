@@ -1,11 +1,10 @@
 import React, {useEffect} from 'react';
-import translate from "./../i18n/translate";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import './components/WhatWeDopage/whatwedo.scss';
 import WhatWeDoPics from './components/WhatWeDopage/WhatWeDoPics';
 import IdeaPics from './components/WhatWeDopage/IdeaPics';
-// import Video from './components/WhatWeDopage/Video';
+import Video from './components/WhatWeDopage/Video';
 import AboutBanner from './components/WhatWeDopage/AboutBanner';
 
 const WhatWeDopage = () => {
@@ -30,8 +29,8 @@ const WhatWeDopage = () => {
                     {/* <div className='video-container'>
                         <video src={planter} type='video/mp4' autoPlay loop muted playsInline style={{'max-width': '100%'}} />
                     </div> */}
-                    {/* <Video /> */}
-                    
+                    {/* <Video />
+                     */}
                     <IdeaPics />
                     {/* <div className='item'>
                         <IdeaPics />

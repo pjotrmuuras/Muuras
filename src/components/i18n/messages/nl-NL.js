@@ -84,6 +84,61 @@ export default {
             description: 'Neem contact met ons op voor meer informatie over ons idee of product. We staan ook altijd open voor nieuwe manieren om samen te werken.',
             description2: 'E-mail ons op ',
             button: 'Neem contact op'
+        },
+        fandq: {
+            1: {
+                question: 'Wat is een "Muuras"?',
+                answer: '"Muuras" is een samenstelling dat de woorden “muur” en “moeras” combineert, precies zoals ons systeem ook muur en moeras samenbrengt.. Trouw aan ons Nederlandse erfgoed van waterinnovatie, combineert onze technologie de natuurlijke zuiverende eigenschappen van wetland-ecosystemen met de ruimte-efficiëntie van groene muren. Hierdoor ontstaat een visueel aantrekkelijke façade waardoor mensen gezond en vredig zij aan zij kunnen leven met andere dieren en inheemse plantensoorten.'
+            },
+            2: {
+                question: 'Wat onderscheidt Muuras van andere groene muren?',
+                answer: 'Groene muren die je nu op de markt vindt, zijn voor hun werking afhankelijk van een constante toevoer van drinkwater en geïmporteerde kunstmest en integreren vaak invasieve plantensoorten. Wij zijn van mening dat dit duur en onhoudbaar is, vooral in het licht van toenemende droogte en tekorten aan meststoffen. Muuras-systemen gebruiken in plaats daarvan huishoudelijk afvalwater om de inheemse planten in de muur te voeden en bewateren, waardoor de gebruikskosten worden verlaagd en de druk op drinkwaterbronnen wordt verlicht.'
+            },
+            3: {
+                question: 'Hoe zuivert een Muuras-systeem water?',
+                answer: `Muuras vormt een kunstmatig deltaecosysteem, of helofytenfilter, dat waterzuivering tot stand brengt in een proces van vier stappen:
+                1. Scheiding van afvalwaterstromen
+                Voedingsrijk en licht vervuild grijs water wordt gescheiden van schadelijke waterstromen.
+                2. Opslag en sanitaire voorzieningen
+                Het afvalwater wordt gezuiverd door middel van tijdelijke opslag, waarbij aërobe bacteriën beginnen de voedingsstoffen in het water af te breken en mogelijke ziektekiemen te verwijderen.
+                3. Irrigatie en filtratie
+                Ontsmet afvalwater stroomt door de levende muur, waarin nutriënten en andere verontreinigende stoffen worden gebonden door substraten, verder worden afgebroken door anaërobe bacteriën en uiteindelijk worden opgenomen in de biomassa van de planten of als natuurlijke stoffen in de atmosfeer terechtkomen.
+                4. Terugwinning en hergebruik
+                Gezuiverd water wordt opgevangen en is klaar om te worden hergebruikt voor niet-drinkbare doeleinden.
+                `
+            },
+            4: {
+                question: 'Welk type gebouwen zijn geschikt voor het plaatsen van een Muuras gevel?',
+                answer: 'Alle gebouwen met beschikbare ruimte op hun gevel of binnenmuren hebben het potentieel om hun eigen Muuras aan te leggen. Bepaalde factoren kunnen je helpen bepalen hoe gemakkelijk ons systeem op jouw gebouw kan worden toegepast: grotere systemen zijn over het algemeen kostenefficiënter. De aanwezigheid van urinoirs of grijswater bronscheiding, evenals gemakkelijk toegankelijke leidingen, vergemakkelijken de installatie van ons systeem.'
+            },
+            5: {
+                question: 'Voor wie is het Muuras-systeem bedoeld?',
+                answer: `Ons systeem werkt voor iedereen: planten, mensen en andere dieren. We hebben ervoor gezorgd dat onze groene muur gunstig is voor de persoon die ervoor betaalt, maar ook voor iedereen die er langs loopt. Onze belangrijkste klanten zijn architecten, aannemers en VvE's, maar Muuras-systemen zijn net zo goed geschikt voor bedrijven en organisaties.`
+            },
+            6: {
+                question: 'Welke voordelen biedt een Muuras-systeem de gebruikers?',
+                answer: 'Naast het feit dat je elke dag kunt genieten van onze planten (waarvan wetenschappelijk is bewezen dat het de geestelijke gezondheid bevordert), biedt een Muuras ook talloze financiële en persoonlijke voordelen voor gebruikers. Het systeem maakt hergebruik van water mogelijk en helpt bij de thermische en geluidsisolatie van uw huis, waardoor je huis comfortabeler wordt en je uitgaven aan GWE-rekeningen worden verminderd.'
+            },
+            7: {
+                question: 'Welke soorten afvalwater recyclet Muuras?',
+                answer: `Muuras-technologie recyclet afvalwater uit een mengsel van grijswater en voedselrijke urine in een verhouding van ongeveer 20:1. Steriele urine wordt bij de bron gescheiden met behulp van UST's (Urine Scheidende Toiletten) om infectierisico's te minimaliseren. Om het risico van fecale besmetting verder te elimineren, wordt dit afvalwater gedurende een maand opgeslagen in een gesegmenteerde septic tank, in overeenstemming met de richtlijnen van de WHO voor veilige irrigatiepraktijken, voordat het wordt gemengd met grijs water.`
+            },
+            8: {
+                question: 'Ruikt een gevel van Muuras slecht?',
+                answer: 'We gebruiken beproefde technologieën om ervoor te zorgen dat ons systeem veilig werkt en geen ongewenste geurtjes produceert. Terwijl water door het systeem stroomt, blijft het te allen tijde onder het bodemniveau, wat ervoor zorgt dat gassen worden afgebroken tot natuurlijke verbindingen voordat ze ontsnappen. We gebruiken bovendien geurige bloemen zoals watermunt om je muur zelfs beter te laten ruiken dan voorheen.'
+            },
+            9: {
+                question: 'Sterven de planten in de Muuras-gevel af?',
+                answer: 'Onze waterplanten zijn de ster van de show, daarom zorgen we graag goed voor alle planten in de gevel. We maken uitsluitend gebruik van meerjarige planten die de stress van vorst, schaduw en wind kunnen verdragen. Om ervoor te zorgen dat planten gezond, mooi en productief blijven, komen we twee keer per jaar de gevel snoeien & onderhouden.'
+            },
+            10: {
+                question: 'Heb ik een vergunning nodig voor het plaatsen van een Muuras gevel?',
+                answer: 'In de meeste gevallen heeft u een omgevingsvergunning nodig om een groene wand van welke aard dan ook aan de gevel van uw woning te plaatsen. Afhankelijk van in welke gemeente u zich bevindt, kunnen de vereisten voor het aanvragen van een dergelijke vergunning verschillen. In sommige gevallen, zoals bij historische gebouwen, kunnen aanvullende vergunningen nodig zijn. Gelukkig erkennen de meeste gemeenten het belang dat ze hebben bij groene muren en staan positief tegenover de aanleg van zo’n systeem.'
+            },
+            11: {
+                question: 'Zijn er subsidies beschikbaar voor het plaatsen van een Muuras gevel?',
+                answer: 'In het licht van veranderende weerpatronen zijn gemeenten in Nederland zich de laatste tijd bewust geworden van de noodzaak om klimaatadaptief te worden. Daarom hebben ze er belang bij om het aantal groene ruimtes in hun steden op een ruimtebesparende manier te vergroten. De meeste grote en middelgrote steden in Nederland stellen subsidies beschikbaar om groene gevels en daken te helpen financieren, of in het algemeen nieuwe groene ruimtes te creëren. Neem contact op met jouw gemeente om te zien welke steun beschikbaar is, of neem contact met ons op om je op weg te helpen!'
+            }
         }
     }
 }
