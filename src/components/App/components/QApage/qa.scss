@@ -52,7 +52,7 @@
         }
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (min-width: 1000px) {
     .qapage-container {
         padding: 2rem 6rem 6rem 6rem;
 
@@ -63,13 +63,21 @@
         .qa-section {
             display: flex;
             flex-direction: row;
-            // flex-direction: column;
-            // flex-wrap: wrap;
             
             .qa-picture {
-                max-width: 500px;
+                max-width: 600px;
             }
+
+            // .section-text {
+            //     max-width: 500px;
+            // }
         }
     }
 
+}
+
+@media screen and (min-width: 1200px) {
+    .qapage-container {
+        padding: 2rem 9rem 6rem 9rem;
+    }
 }
