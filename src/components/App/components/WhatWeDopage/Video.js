@@ -1,5 +1,6 @@
 import React from 'react';
 import planter from './planter.mp4';
+import './video.scss';
 
 const Video = () => {
     return (

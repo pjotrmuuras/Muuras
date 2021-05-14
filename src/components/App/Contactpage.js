@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import translate from '../i18n/translate';
 import './components/Contactpage/contact.scss';
+import Video from './components/WhatWeDopage/Video';
 
 const Contactpage = () => {
     useEffect(() => {
@@ -12,7 +13,9 @@ const Contactpage = () => {
             <h1>{translate('contact.title')}</h1>
             <p>{translate('contact.description')}</p>
             <p>{translate('contact.description2')} 
-                <a href='mailto:pjotr@muuras.nl'>pjotr@muuras.nl</a></p>
+                <a href='mailto:pjotr@muuras.nl'>pjotr@muuras.nl</a>
+            </p>
+            <Video />
         </div>
     )
 }
