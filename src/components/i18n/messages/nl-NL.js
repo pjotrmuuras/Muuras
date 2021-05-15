@@ -96,16 +96,23 @@ export default {
             },
             3: {
                 question: 'Hoe zuivert een Muuras-systeem water?',
-                answer: `Muuras vormt een kunstmatig deltaecosysteem, of helofytenfilter, dat waterzuivering tot stand brengt in een proces van vier stappen:
-                1. Scheiding van afvalwaterstromen
-                Voedingsrijk en licht vervuild grijs water wordt gescheiden van schadelijke waterstromen.
-                2. Opslag en sanitaire voorzieningen
-                Het afvalwater wordt gezuiverd door middel van tijdelijke opslag, waarbij aërobe bacteriën beginnen de voedingsstoffen in het water af te breken en mogelijke ziektekiemen te verwijderen.
-                3. Irrigatie en filtratie
-                Ontsmet afvalwater stroomt door de levende muur, waarin nutriënten en andere verontreinigende stoffen worden gebonden door substraten, verder worden afgebroken door anaërobe bacteriën en uiteindelijk worden opgenomen in de biomassa van de planten of als natuurlijke stoffen in de atmosfeer terechtkomen.
-                4. Terugwinning en hergebruik
-                Gezuiverd water wordt opgevangen en is klaar om te worden hergebruikt voor niet-drinkbare doeleinden.
-                `
+                answer: `Muuras vormt een kunstmatig deltaecosysteem, of helofytenfilter, dat waterzuivering tot stand brengt in een proces van vier stappen:`,
+                1: {
+                    title: `1. Scheiding van afvalwaterstromen`,
+                    description: `Voedingsrijk en licht vervuild grijs water wordt gescheiden van schadelijke waterstromen.`
+                },
+                2: {
+                    title: `2. Opslag en sanitaire voorzieningen`,
+                    description: `Het afvalwater wordt gezuiverd door middel van tijdelijke opslag, waarbij aërobe bacteriën beginnen de voedingsstoffen in het water af te breken en mogelijke ziektekiemen te verwijderen.`
+                },
+                3: {
+                    title: `3. Irrigatie en filtratie`,
+                    description: `Ontsmet afvalwater stroomt door de levende muur, waarin nutriënten en andere verontreinigende stoffen worden gebonden door substraten, verder worden afgebroken door anaërobe bacteriën en uiteindelijk worden opgenomen in de biomassa van de planten of als natuurlijke stoffen in de atmosfeer terechtkomen.`
+                }, 
+                4: {
+                    title: `4. Terugwinning en hergebruik`,
+                    description: `Gezuiverd water wordt opgevangen en is klaar om te worden hergebruikt voor niet-drinkbare doeleinden.`
+                }
             },
             4: {
                 question: 'Welk type gebouwen zijn geschikt voor het plaatsen van een Muuras gevel?',

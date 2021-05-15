@@ -97,15 +97,23 @@ export default {
                 },
                 3: {
                     question: 'How does a Muuras system purify water?',
-                    answer: `Muuras constitutes an artificial wetland ecosystem that accomplishes water purification in a four-step process: 
-                    1. Separation of wastewater streams
-                    Nutrient-rich and lightly polluted greywater are separated from more harmful waste streams.
-                    2. Storage & sanitation 
-                    The wastewater is sanitized by means of short-term storage, during which aerobic bacteria start breaking down the nutrients contained in the water and eliminate harmful pathogens.
-                    3. Irrigation & filtration 
-                    Sanitized wastewater flows through the living wall, in which nutrients and other pollutants are bound by substrates, broken down further by anaerobic bacteria, and ultimately assimilated into the biomass of the plants or released into the atmosphere as natural compounds.
-                    4. Recovery & reuse 
-                    Purified water is collected and ready to be reused for non-potable purposes.`
+                    answer: `Muuras constitutes an artificial wetland ecosystem that accomplishes water purification in a four-step process:`,
+                    1: {
+                        title: `1. Separation of wastewater streams`,
+                        description: `Nutrient-rich and lightly polluted greywater are separated from more harmful waste streams.`
+                    },
+                    2: {
+                        title: `2. Storage & sanitation`,
+                        description: `The wastewater is sanitized by means of short-term storage, during which aerobic bacteria start breaking down the nutrients contained in the water and eliminate harmful pathogens.`
+                    },
+                    3: {
+                        title: `3. Irrigation & filtration`, 
+                        description: `Sanitized wastewater flows through the living wall, in which nutrients and other pollutants are bound by substrates, broken down further by anaerobic bacteria, and ultimately assimilated into the biomass of the plants or released into the atmosphere as natural compounds.`
+                    },
+                    4: {
+                        title: `4. Recovery & reuse`, 
+                        description: `Purified water is collected and ready to be reused for non-potable purposes.`
+                    }
                 },
                 4: {
                     question: 'What type of buildings are suitable for installing a Muuras facade?',
