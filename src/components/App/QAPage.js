@@ -5,6 +5,7 @@ import './components/QApage/qa.scss';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 // import greenwall from './img/greenwall2.jpg'
 // import greenwall2 from '../../../public/img/greenwall3.jpg'
 
@@ -32,24 +33,18 @@ const QAPage = () => {
     return (
         <div className='qapage-container'>
             <h1>Q & A</h1>
-            {/* <div>{translate('fandq.items', {returnObjects: true}).map(({question, answer}) => 
-                    <div>
-                        <h3>{question}</h3>
-                        <h4>{answer}</h4>
-                    </div>
-            )}</div> */}
             <div className='qa-container' data-aos='fade-up'>
                 <div className='qa-section'>
                     <div className='section-text'>
                         <div>
                             <p className='question'>{translate('fandq.1.question')}</p>
-                            <p>Answer: <KeyboardArrowDownIcon onClick={() => setShow(!show)}/></p>
+                            <p>{translate('fandq.answer')}: {!show ? <KeyboardArrowDownIcon onClick={() => setShow(!show)}/> : <KeyboardArrowUpIcon onClick={() => setShow(!show)}/>}</p>
                             {show && <p>{translate('fandq.1.answer')}</p>}
                         </div>
                         
                         <div>
                             <p className='question'>{translate('fandq.2.question')}</p>
-                            <p>Answer: <KeyboardArrowDownIcon onClick={() => setShow2(!show2)}/></p>
+                            <p>{translate('fandq.answer')}: {!show2 ? <KeyboardArrowDownIcon onClick={() => setShow2(!show2)}/> : <KeyboardArrowUpIcon onClick={() => setShow2(!show2)}/>}</p>
                             {show2 && <p>{translate('fandq.2.answer')}</p>}
                         </div>
                     </div>
@@ -59,11 +54,11 @@ const QAPage = () => {
                 </div>
 
                 <div>
-                <div className='qa-section'>
+                <div className='qa-section' data-aos='fade-up'>
                     <div className='section-text'>
                         <div>
                             <p className='question'>{translate('fandq.3.question')}</p>
-                            <p>Answer: <KeyboardArrowDownIcon onClick={() => setShow3(!show3)}/></p>
+                            <p>{translate('fandq.answer')}: {!show3 ? <KeyboardArrowDownIcon onClick={() => setShow3(!show3)}/> : <KeyboardArrowUpIcon onClick={() => setShow3(!show3)}/>}</p>
                             {show3 && <><p>{translate('fandq.3.answer')}</p>
                             <p className='bold'>{translate('fandq.3.1.title')}</p>
                             <p>{translate('fandq.3.1.description')}</p>
@@ -78,13 +73,13 @@ const QAPage = () => {
 
                         <div>
                             <p className='question'>{translate('fandq.4.question')}</p>
-                            <p>Answer: <KeyboardArrowDownIcon onClick={() => setShow4(!show4)}/></p>
+                            <p>{translate('fandq.answer')}: {!show4 ? <KeyboardArrowDownIcon onClick={() => setShow4(!show4)}/> : <KeyboardArrowUpIcon onClick={() => setShow4(!show4)}/>}</p>
                             {show4 && <p>{translate('fandq.4.answer')}</p>}
                         </div>
 
                         <div>
                             <p className='question'>{translate('fandq.5.question')}</p>
-                            <p>Answer: <KeyboardArrowDownIcon onClick={() => setShow5(!show5)}/></p>
+                            <p>{translate('fandq.answer')}: {!show5 ? <KeyboardArrowDownIcon onClick={() => setShow5(!show5)}/> : <KeyboardArrowUpIcon onClick={() => setShow5(!show5)}/>}</p>
                             {show5 && <p>{translate('fandq.5.answer')}</p>}
                         </div>
                     </div>
@@ -93,29 +88,29 @@ const QAPage = () => {
                     </div>
                 </div>
 
-                <div className='qa-section'>
+                <div className='qa-section' data-aos='fade-up'>
                     <div className='section-text'>
                         <div>
                             <p className='question'>{translate('fandq.6.question')}</p>
-                            <p>Answer: <KeyboardArrowDownIcon onClick={() => setShow6(!show6)}/></p>
+                            <p>{translate('fandq.answer')}: {!show6 ? <KeyboardArrowDownIcon onClick={() => setShow6(!show6)}/> : <KeyboardArrowUpIcon onClick={() => setShow6(!show6)}/>}</p>
                             {show6 && <p>{translate('fandq.6.answer')}</p>}
                         </div>
                         
                         <div>
                             <p className='question'>{translate('fandq.7.question')}</p>
-                            <p>Answer: <KeyboardArrowDownIcon onClick={() => setShow7(!show7)}/></p>
+                            <p>{translate('fandq.answer')}: {!show7 ? <KeyboardArrowDownIcon onClick={() => setShow7(!show7)}/> : <KeyboardArrowUpIcon onClick={() => setShow7(!show7)}/>}</p>
                             {show7 && <p>{translate('fandq.7.answer')}</p>}
                         </div>
 
                         <div>
                             <p className='question'>{translate('fandq.8.question')}</p>
-                            <p>Answer: <KeyboardArrowDownIcon onClick={() => setShow8(!show8)}/></p>
+                            <p>{translate('fandq.answer')}: {!show8 ? <KeyboardArrowDownIcon onClick={() => setShow8(!show8)}/> : <KeyboardArrowUpIcon onClick={() => setShow8(!show8)}/>}</p>
                             {show8 && <p>{translate('fandq.8.answer')}</p>}
                         </div>
 
                         <div>
                             <p className='question'>{translate('fandq.9.question')}</p>
-                            <p>Answer: <KeyboardArrowDownIcon onClick={() => setShow9(!show9)}/></p>
+                            <p>{translate('fandq.answer')}: {!show9 ? <KeyboardArrowDownIcon onClick={() => setShow9(!show9)}/> : <KeyboardArrowUpIcon onClick={() => setShow9(!show9)}/>}</p>
                             {show9 && <p>{translate('fandq.9.answer')}</p>}
                         </div>
                     </div>
@@ -124,17 +119,16 @@ const QAPage = () => {
                     </div>
                 </div>
 
-                <div className='qa-section'>
+                <div className='qa-section' data-aos='fade-up'>
                     <div className='section-text'>
                         <div>
-                            <p className='question'>{translate('fandq.10.question')}</p>
-                            <p>Answer: <KeyboardArrowDownIcon onClick={() => setShow10(!show10)}/></p>
+                            <p>{translate('fandq.answer')}: {!show10 ? <KeyboardArrowDownIcon onClick={() => setShow10(!show10)}/> : <KeyboardArrowUpIcon onClick={() => setShow10(!show10)}/>}</p>
                             {show10 && <p>{translate('fandq.10.answer')}</p>}
                         </div>
 
                         <div>
                             <p className='question'>{translate('fandq.11.question')}</p>
-                            <p>Answer: <KeyboardArrowDownIcon onClick={() => setShow11(!show11)}/></p>
+                            <p>{translate('fandq.answer')}: {!show11 ? <KeyboardArrowDownIcon onClick={() => setShow11(!show11)}/> : <KeyboardArrowUpIcon onClick={() => setShow11(!show11)}/>}</p>
                             {show11 && <p>{translate('fandq.11.answer')}</p>}
                         </div>
                     </div>
@@ -146,5 +140,3 @@ const QAPage = () => {
 }
 
 export default QAPage
-
-// {translate('menu.qa')}

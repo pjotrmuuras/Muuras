@@ -145,7 +145,8 @@ export default {
             11: {
                 question: 'Zijn er subsidies beschikbaar voor het plaatsen van een Muuras gevel?',
                 answer: 'In het licht van veranderende weerpatronen zijn gemeenten in Nederland zich de laatste tijd bewust geworden van de noodzaak om klimaatadaptief te worden. Daarom hebben ze er belang bij om het aantal groene ruimtes in hun steden op een ruimtebesparende manier te vergroten. De meeste grote en middelgrote steden in Nederland stellen subsidies beschikbaar om groene gevels en daken te helpen financieren, of in het algemeen nieuwe groene ruimtes te creëren. Neem contact op met jouw gemeente om te zien welke steun beschikbaar is, of neem contact met ons op om je op weg te helpen!'
-            }
+            },
+            answer: 'Antwoord'
         }
     }
 }

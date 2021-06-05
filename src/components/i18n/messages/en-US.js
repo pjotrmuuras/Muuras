@@ -146,7 +146,8 @@ export default {
                 11: {
                     question: 'Are there subsidies available for installing a Muuras facade?',
                     answer: 'In the face of changing weather patterns, municipalities in the Netherlands have recently become aware of the need to become climate adaptive. Therefore, they have a stake in increasing the amount of green spaces in their cities in space-efficient ways. Most major cities and some large towns offer subsidies to help fund green facades and roofs, while others have funding available for simply creating green spaces. Check with your municipality to see what support is available to you, or get in touch with us to help you on your way!'
-                }
+                },
+                answer: 'Answer'
         }
     }
 }
