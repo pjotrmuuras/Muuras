@@ -8,13 +8,18 @@
     align-items: center;
     overflow-x: hidden;
 
+    // <div className='item-img' id='about-banner' data-aos='fade-left'>
+    //             <img src='./img/greenwall.jpg' alt='Green Wall'/>
+    //         </div>
+
     #about-banner {
       display: flex;
       justify-content: center;
+      margin-bottom: 1rem;
 
       img {
-        // width: 100vw;
-        max-height: 90vh;
+        width: 100vw;
+        // max-height: 90vh;
       }
     }
 

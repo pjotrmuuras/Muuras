@@ -122,6 +122,7 @@ const QAPage = () => {
                 <div className='qa-section' data-aos='fade-up'>
                     <div className='section-text'>
                         <div>
+                        <p className='question'>{translate('fandq.10.question')}</p>
                             <p>{translate('fandq.answer')}: {!show10 ? <KeyboardArrowDownIcon onClick={() => setShow10(!show10)}/> : <KeyboardArrowUpIcon onClick={() => setShow10(!show10)}/>}</p>
                             {show10 && <p>{translate('fandq.10.answer')}</p>}
                         </div>

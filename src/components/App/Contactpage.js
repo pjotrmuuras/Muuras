@@ -15,6 +15,7 @@ const Contactpage = () => {
             <p>{translate('contact.description2')} 
                 <a href='mailto:pjotr@muuras.nl'>pjotr@muuras.nl</a>
             </p>
+            <p>{translate('contact.description3')}</p>
             <Video />
         </div>
     )

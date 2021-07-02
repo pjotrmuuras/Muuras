@@ -83,6 +83,7 @@ export default {
             title: 'Vraag je eigen Muuras aan!',
             description: 'Neem contact met ons op voor meer informatie over ons idee of product. We staan ook altijd open voor nieuwe manieren om samen te werken.',
             description2: 'E-mail ons op ',
+            description3: 'Kijk de video hieronder',
             button: 'Neem contact op'
         },
         fandq: {
