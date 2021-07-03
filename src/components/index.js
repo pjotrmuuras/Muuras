@@ -10,7 +10,7 @@ export default () => (
         <Provider>
         <Router>
             <ScrollToTop >
-            <App/>
+            <App />
             </ScrollToTop>
             </Router>
         </Provider>
