@@ -12,11 +12,11 @@ export const dinsdag = () => {
     }, [])
 
     return (
-        <div className='challenge-container'>
-            <div data-aos="fade-right" className='challenge-img-container'>
-                <img src='./img/circular-change.png' alt='Circular Cycle'/>
+        <div className='dinsdag-container'>
+            <div data-aos="fade-right" className='dinsdag-img-container'>
+                <img src='./img/duurzamedinsdag.png' alt='Circular Cycle'/>
             </div>
-            <div data-aos="fade-left" className='challenge-text-container'>
+            <div data-aos="fade-left" className='dinsdag-text-container'>
                 <h2>{translate('Dinsdagdata.title')}</h2>
                 <h5>{translate('Dinsdagdata.date')}</h5>
                 <p>{translate('Dinsdagdata.description')}</p>
