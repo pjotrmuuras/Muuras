@@ -4,7 +4,7 @@ import {Footer} from '../footer/Footer';
 import {Challenge} from './challenge/Challenge';
 import { SwampSection } from './swampSection/SwampSection';
 import { AMS } from './ams/AMS';
-import {Dinsdag} from './dinsdag/dinsdag';
+import {Dinsdag} from './dinsdag/Dinsdag';
 
 export const Homepage = () => {
     return (
