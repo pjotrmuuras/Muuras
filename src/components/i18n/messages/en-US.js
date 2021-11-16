@@ -17,7 +17,7 @@ export default {
                 description: 'Muuras is continuously optimizing the functioning and safety of our vertical constructed wetlands. In collaboration with innovators from our partners NHL Stenden, Greenwave Systems, and Wetsus, we are testing different combinations of substrate, wetland plants and wastewater mixes at Leeuwarden’s WaterCampus.',
                 button: 'Learn More'
             },
-            DuurzameData: {
+            DinsdagData: {
                 title: 'Nominated for Duurzame Dinsdag',
                 date: '07 September 2021',
                 description: 'On Duurzame Dinsdag (Sustainable Tuesday) the Dutch government accepted the Sustainable Suitcase filled with hundreds of sustainable ideas and initiatives from all corners of our society. Muuras had the honour to attend, and to be nominated for the Duurzame Dinsdag-Prize, facing off against Exctinction Rebellion & Lab Toekomstige Generaties.', 
