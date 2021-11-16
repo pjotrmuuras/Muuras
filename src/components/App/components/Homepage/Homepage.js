@@ -4,14 +4,14 @@ import {Footer} from '../footer/Footer';
 import {Challenge} from './challenge/Challenge';
 import { SwampSection } from './swampSection/SwampSection';
 import { AMS } from './ams/AMS';
-import {dinsdag} from './dinsdag/dinsdag';
+import {Dinsdag} from './dinsdag/dinsdag';
 
 export const Homepage = () => {
     return (
         <div>
             <Hero />
             <SwampSection />
-            <dinsdag />
+            <Dinsdag />
             <Challenge />
             <AMS/>
             <Footer/>
