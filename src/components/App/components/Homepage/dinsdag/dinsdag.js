@@ -17,9 +17,9 @@ export const dinsdag = () => {
                 <img src='./img/duurzamedinsdag.jpeg' alt='Circular Cycle'/>
             </div>
             <div data-aos="fade-left" className='dinsdag-text-container'>
-                <h2>{translate('Dinsdagdata.title')}</h2>
-                <h5>{translate('Dinsdagdata.date')}</h5>
-                <p>{translate('Dinsdagdata.description')}</p>
+                <h2>{translate('DinsdagData.title')}</h2>
+                <h5>{translate('DinsdagData.date')}</h5>
+                <p>{translate('DinsdagData.description')}</p>
                 <a href="https://www.duurzamedinsdag.nl/Nieuws/Genomineerden-voor-themaprijzen-2021-bekend" target='_blank' rel="noreferrer">
                         <Button
                             className='btn'
