@@ -14,7 +14,7 @@ export const Dinsdag = () => {
     return (
         <div className='dinsdag-container'>
             <div data-aos="fade-right" className='dinsdag-img-container'>
-                <img src='./img/duurzamedinsdag.jpeg' alt='Duurzame Dinsdag'/>
+                <img src='./img/duurzamedinsdag.jpg' alt='Duurzame Dinsdag'/>
             </div>
             <div data-aos="fade-left" className='dinsdag-text-container'>
                 <h2>{translate('DinsdagData.title')}</h2>
