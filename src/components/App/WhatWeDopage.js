@@ -16,7 +16,6 @@ const WhatWeDopage = () => {
 
     return (
                 <div className='about-container' >
-                    <AboutBanner />
                     <IdeaPics />
                     <WhatWeDoPics />
                 </div>
