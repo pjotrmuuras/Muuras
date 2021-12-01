@@ -31,8 +31,8 @@ export const Sowflow = () => {
                         </Link>
                     </div>
                 </div>
-                <div className='swamp-img' data-aos='fade-right'>
-                    <img src='./img/regieorgaan.svg' alt='regieorgaan'/>
+                <div className='sowflow-img' data-aos='fade-right'>
+                    <img src='./img/regieorgaan.png' alt='regieorgaan'/>
                 </div>
             </div>
         </div>
