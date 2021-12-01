@@ -10,7 +10,19 @@ export default {
             qa: 'Q&A',
             contact: 'Contact'
         },
-        AMSData: {
+       SowflowData: {
+           title: 'SoW & FloW: Samenwerken en Experimenten',
+           date: 'November 2021 – November 2022',
+           description: 'Muuras optimaliseert continu de werking en veiligheid van onze verticale helofytenfilters. In samenwerking met innovatieve geesten van onze partners NHL Stenden, Greenwave Systems en Wetsus testen we op de WaterCampus in Leeuwarden verschillende combinaties van substraat, waterplanten en afvalwatermengsels.',
+           button: 'Kom meer te weten'
+            },
+       DinsdagData: {
+           title: 'Genomineerd voor Duurzame Dinsdag iniatievenprijs',
+           date: '07 September 2021',
+           description: 'Op Duurzame Dinsdag nam het kabinet de Duurzame Koffer in ontvangst, gevuld met honderden duurzame ideeën en initiatieven uit alle hoeken van onze samenleving. Muuras had de eer om aanwezig te zijn en genomineerd te worden voor de Duurzame Dinsdag-prijs, samen met Exctinction Rebellion & Lab Future Generations.', 
+           button: 'Kom meer te weten'
+        },
+           AMSData: {
             title: 'Boost bij het AMS Institute',
             date: 'Oktober 2020 - Februari 2021',
             description: "In de winter van '20/'21 nam Muuras deel aan de AMS Startup Booster op het Marineterrein in Amsterdam. Samen met zes andere jonge startups die zich richten op het oplossen van stedelijke uitdagingen, hebben we ons product en de marktpassing van Muuras verder ontwikkeld.",
