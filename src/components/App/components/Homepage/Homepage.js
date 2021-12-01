@@ -5,7 +5,7 @@ import {Challenge} from './challenge/Challenge';
 import { SwampSection } from './swampSection/SwampSection';
 import { AMS } from './ams/AMS';
 import {Dinsdag} from './dinsdag/Dinsdag';
-import {Sowflow} from './Sowflow/Sowflow';
+import {Sowflow} from './sowflow/Sowflow';
 
 export const Homepage = () => {
     return (
