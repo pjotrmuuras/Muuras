@@ -5,6 +5,7 @@ import {Challenge} from './challenge/Challenge';
 import { SwampSection } from './swampSection/SwampSection';
 import { AMS } from './ams/AMS';
 import {Dinsdag} from './dinsdag/Dinsdag';
+import {Sowflow} from './Sowflow/Sowflow';
 
 export const Homepage = () => {
     return (
@@ -12,6 +13,7 @@ export const Homepage = () => {
             <Hero />
             <SwampSection />
             <Dinsdag />
+            <Sowflow/>
             <Challenge />
             <AMS/>
             <Footer/>
