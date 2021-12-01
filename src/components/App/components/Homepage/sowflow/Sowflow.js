@@ -16,7 +16,7 @@ export const Sowflow = () => {
             <div data-aos="fade-left" className='sowflow-img-container'>
                 <img src='./img/regieorgaan.png' alt='regieorgaan'/>
             </div>
-            <div data-aos="fade-left" className='dinsdag-text-container'>
+            <div data-aos="fade-right" className='dinsdag-text-container'>
                 <h2>{translate('SowflowData.title')}</h2>
                 <h5>{translate('SowflowData.date')}</h5>
                 <p>{translate('SowflowData.description')}</p>
