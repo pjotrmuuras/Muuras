@@ -5,7 +5,7 @@ import './dinsdag.scss';
 import translate from '../../../../i18n/translate';
 import {Button} from '../../Button/Button';
 
-export const dinsdag = () => {
+export const Dinsdag = () => {
     useEffect(() => {
         Aos.init({duration: 1500});
         Aos.refresh({duration: 1500});
