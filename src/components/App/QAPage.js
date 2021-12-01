@@ -48,9 +48,6 @@ const QAPage = () => {
                             {show2 && <p>{translate('fandq.2.answer')}</p>}
                         </div>
                     </div>
-                    <div className='section-picture'>
-                        <img className='qa-picture' src='/img/greenwall3.jpg' alt='Green Wall' />
-                    </div>
                 </div>
 
                 <div>
@@ -83,9 +80,6 @@ const QAPage = () => {
                             {show5 && <p>{translate('fandq.5.answer')}</p>}
                         </div>
                     </div>
-                    <div className='section-picture'>
-                        <img className='qa-picture' src='/img/drawing.png' alt='Drawing of design'/>
-                    </div>
                 </div>
 
                 <div className='qa-section' data-aos='fade-up'>
@@ -113,9 +107,6 @@ const QAPage = () => {
                             <p>{translate('fandq.answer')}: {!show9 ? <KeyboardArrowDownIcon onClick={() => setShow9(!show9)}/> : <KeyboardArrowUpIcon onClick={() => setShow9(!show9)}/>}</p>
                             {show9 && <p>{translate('fandq.9.answer')}</p>}
                         </div>
-                    </div>
-                    <div className='section-picture'>
-                        <img className='qa-picture' src='/img/greenwall2.jpg' alt='Greenwall' />
                     </div>
                 </div>
 
