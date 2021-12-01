@@ -1,3 +1,4 @@
+import {Sowflow} from './Sowflow/Sowflow';
 import {Dinsdag} from './components/Homepage/dinsdag/Dinsdag';
 import { AMS } from './components/Homepage/ams/AMS';
 import {Hero} from './components/Homepage/hero/Hero'
