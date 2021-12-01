@@ -10,6 +10,7 @@ const Homepage = () => {
             <Hero/>
             <SwampSection/>
             <Dinsdag/>
+            <Sowflow/>
             <Challenge/>
             <AMS />
         </div>
