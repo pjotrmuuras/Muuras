@@ -13,7 +13,9 @@ const Contactpage = () => {
             <h1>{translate('contact.title')}</h1>
             <p>{translate('contact.description')}</p>
             <p>{translate('contact.description2')} 
-                <a href='mailto:pjotr@muuras.nl'>pjotr@muuras.nl</a>
+                <a href='mailto:felipe@muuras.nl'>felipe@muuras.nl</a>,{' '}
+                <a href='mailto:gijs@muuras.nl'>gijs@muuras.nl</a>, or{' '}
+                <a href='mailto:lydia@muuras.nl'>lydia@muuras.nl</a>
             </p>
             <p>{translate('contact.description3')}</p>
             <Video />
