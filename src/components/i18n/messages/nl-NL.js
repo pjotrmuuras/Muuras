@@ -49,7 +49,7 @@ export default {
                 name: 'Gijs',
                 img: 'img/gijs.jpg',
                 alt: 'Gijs',
-                info: 'Gijs heeft een academische achtergrond in Economics & Business en Life Sciences van het Erasmus University College. Gevestigd in Amsterdam, beheert hij momenteel een Bed & Breakfast in Amsterdam naast het aanvoeren van Muuras.'
+                info: 'Gijs heeft diploma's in Circulaire Economie en Bos- en Natuurbescherming van EUC Rotterdam en Wageningen Universiteit. Met kennis over plantkunde, ecologie, en duurzaamheidsbeleid draagt hij bij aan de biodiversiteitsimpact van Muuras.'
             },
             Lydia: {
                 name: 'Lydia',
