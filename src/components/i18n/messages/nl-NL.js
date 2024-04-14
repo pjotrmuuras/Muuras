@@ -57,11 +57,11 @@ export default {
                 alt: 'Lydia',
                 info: 'Lydia is gevestigd in Thessaloniki en werkt naast de technische expert van Muuras als technisch water- en milieuspecialist. Lydia heeft een MSc in Milieutechnologie aan de Universiteit Twente en een BSc in Industriële Technologie aan de Piraeus University.'
             },
-            Pjotr: {
-                name: 'Pjotr',
-                img: 'img/pjotr.jpg',
-                alt: 'Pjotr',
-                info: 'Naast zijn studie Milieueconomie aan Wageningen University & Research en baan als Analyst Duurzame Financiën, houdt Pjotr zich bezig met de communicatie en PR van Muuras.'
+            Felipe: {
+                name: 'Felipe',
+                img: 'img/felipe.jpg',
+                alt: 'Felipe',
+                info: 'Felipe is een milieuingenieur met een MSc in watertechnologie. Naast Muuras doet hij een PhD aan de Universiteit Twente op het gebied van Chemische Technologie.'
             }
         },
         whatWeDo: {
