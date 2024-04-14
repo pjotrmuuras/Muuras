@@ -19,7 +19,7 @@ const Footer = () => {
     return (
         <footer className='container'>
              <div className='icon-container'>
-                <a href='mailto:pjotr@muuras.nl'>
+                <a href='mailto:gijs@muuras.nl'>
                 <Email className='icon'fontSize='large'/>
                 </a>
                 {state.locale === LOCALES.DUTCH ? <img src='./img/uk-flag.jpg' alt='english' className='flag footer-icon' onClick={() => setLanguage(LOCALES.ENGLISH)} /> : null}
