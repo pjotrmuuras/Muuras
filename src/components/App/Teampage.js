@@ -36,11 +36,11 @@ const Teampage = () => {
                 </div>
                 <div className='team-card' data-aos='fade-up'>
                      <div className='card-img'>
-                        <img src='./img/pjotr-square.png' alt={translate('teamInfo.Pjotr.alt')}/>
+                        <img src='./img/felipe-square.png' alt={translate('teamInfo.Felipe.alt')}/>
                     </div>
                     <div className='card-text'>
-                        <h3>{translate('teamInfo.Pjotr.name')}</h3>
-                        <p>{translate('teamInfo.Pjotr.info')}</p>
+                        <h3>{translate('teamInfo.Felipe.name')}</h3>
+                        <p>{translate('teamInfo.Felipe.info')}</p>
                     </div>
                 </div>
             </div>
