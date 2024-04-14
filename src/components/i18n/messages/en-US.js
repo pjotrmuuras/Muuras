@@ -58,11 +58,11 @@ export default {
                     alt: 'Lydia',
                     info: 'Based in Thessaloniki, Lydia works as a technical water & environmental specialist next to being Muuras’ technical expert. Lydia holds a MSc in Environmental Technology from Twente University and a BSc in Industrial Technology from Piraeus University.'
                 },
-                Pjotr: {
-                    name: 'Pjotr',
-                    img: 'img/pjotr.jpg',
-                    alt: 'Pjotr',
-                    info: 'Next to studying Environmental Economics at Wageningen University & Research, Pjotr works on the communications and PR of Muuras.'
+                Felipe: {
+                    name: 'Felipe',
+                    img: 'img/felipe.jpg',
+                    alt: 'Felipe',
+                    info: 'Felipe is an Environmental Engineer with a MSc in Water Technology. In addition to being a member of Muuras, he is doing a PhD at the University of Twente in the field of Chemical Engineering.'
                 }
             },
             whatWeDo: {
