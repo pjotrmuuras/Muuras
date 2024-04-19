@@ -55,7 +55,7 @@ export default {
                 name: 'Lydia',
                 img: 'img/lydia.jpg',
                 alt: 'Lydia',
-                info: 'Lydia werkt naast de technische expert van Muuras als technisch water- en milieuspecialist. Lydia heeft een MSc in Milieutechnologie aan de Universiteit Twente en een BSc in Industriële Technologie aan de Piraeus University.'
+                info: 'Lydia is naast haar baan als technisch water- en milieuspecialist ook de technische expert van Muuras. Lydia heeft een MSc in Milieutechnologie aan de Universiteit Twente en een BSc in Industriële Technologie aan de Piraeus University.'
             },
             Felipe: {
                 name: 'Felipe',
