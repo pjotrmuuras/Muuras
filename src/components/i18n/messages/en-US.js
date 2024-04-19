@@ -56,7 +56,7 @@ export default {
                     name: 'Lydia',
                     img: 'img/lydia.jpg',
                     alt: 'Lydia',
-                    info: 'Based in Thessaloniki, Lydia works as a technical water & environmental specialist next to being Muuras’ technical expert. Lydia holds a MSc in Environmental Technology from Twente University and a BSc in Industrial Technology from Piraeus University.'
+                    info: 'Lydia works as a technical water & environmental specialist next to being Muuras’ technical expert. Lydia holds a MSc in Environmental Technology from Twente University and a BSc in Industrial Technology from Piraeus University.'
                 },
                 Felipe: {
                     name: 'Felipe',
