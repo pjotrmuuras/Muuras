@@ -20,7 +20,7 @@ export const Sowflow = () => {
                 <h2>{translate('SowflowData.title')}</h2>
                 <h5>{translate('SowflowData.date')}</h5>
                 <p>{translate('SowflowData.description')}</p>
-                <a href="https://regieorgaan-sia.nl/financiering/kiem/" target='_blank' rel="noreferrer">
+                <a href="https://www.sia-projecten.nl/project/sow-flow-green-walls-that-filter-wastewater" target='_blank' rel="noreferrer">
                         <Button
                             className='btn'
                             buttonStyle='btn-primary'
