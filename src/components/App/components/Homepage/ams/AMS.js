@@ -47,7 +47,7 @@ export const AMS = () => {
                 <h5>{translate('AMSData.date')}</h5>
                 <p>{translate('AMSData.description')}</p>
             </div>  
-            {/* <a href="https://www.ams-institute.org/how-we-work/stimulating-entrepreneurship-main/ams-startup-booster-selected-teams/" target='_blank' rel="noreferrer">
+            {/* <a href="https://www.ams-institute.org/news/wrap-ams-startup-booster-demo-day-meet-startups/" target='_blank' rel="noreferrer">
                         <Button
                             className='btn'
                             id='ams-btn'
@@ -59,7 +59,7 @@ export const AMS = () => {
         </div> 
         }     
         <div className='ams-button-container'>
-            <a href="https://www.ams-institute.org/how-we-work/stimulating-entrepreneurship-main/ams-startup-booster-selected-teams/" target='_blank' rel="noreferrer">
+            <a href="https://www.ams-institute.org/news/wrap-ams-startup-booster-demo-day-meet-startups/" target='_blank' rel="noreferrer">
                         <Button
                             className='btn'
                             buttonStyle='btn-primary'
