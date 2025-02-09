@@ -18,7 +18,7 @@ const Contactpage = () => {
                 <a href='mailto:lydia@muuras.nl'>lydia@muuras.nl</a>
             </p>
             <p>{translate('contact.description3')}</p>
-            <Video />
+            {/* <Video /> */} {/* Removed the video */}
         </div>
     )
 }
