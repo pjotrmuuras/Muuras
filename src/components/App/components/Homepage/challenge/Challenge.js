@@ -20,7 +20,7 @@ export const Challenge = () => {
                 <h2>{translate('ChallengeData.title')}</h2>
                 <h5>{translate('ChallengeData.date')}</h5>
                 <p>{translate('ChallengeData.description')}</p>
-                <a href="https://www.bluecity.nl/blog/bluecity-circular-challenge-hoogbouw/" target='_blank' rel="noreferrer">
+                <a href="https://bluecity.nl/en/nieuws/bluecity-circular-challenge-hoogbouw" target='_blank' rel="noreferrer">
                         <Button
                             className='btn'
                             buttonStyle='btn-primary'
