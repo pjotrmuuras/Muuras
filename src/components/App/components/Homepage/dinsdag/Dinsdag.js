@@ -20,7 +20,7 @@ export const Dinsdag = () => {
                 <h2>{translate('DinsdagData.title')}</h2>
                 <h5>{translate('DinsdagData.date')}</h5>
                 <p>{translate('DinsdagData.description')}</p>
-                <a href="https://www.duurzamedinsdag.nl/Nieuws/Genomineerden-voor-themaprijzen-2021-bekend" target='_blank' rel="noreferrer">
+                <a href="https://www.duurzamedinsdag.nl/index.php?id=22270&initiative=23280" target='_blank' rel="noreferrer">
                         <Button
                             className='btn'
                             buttonStyle='btn-primary'
