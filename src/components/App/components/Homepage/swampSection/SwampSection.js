@@ -31,7 +31,7 @@ export const SwampSection = () => {
                     </div>
                 </div>
                 <div className='swamp-img' data-aos='fade-right'>
-                    <img src='./img/muuras-building.jpg' alt='Muuras building'/>
+                    <img src='./img/muuras-building2.jpg' alt='Muuras building 2'/>
                 </div>
             </div>
         </div>
