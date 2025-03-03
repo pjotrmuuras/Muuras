@@ -37,8 +37,7 @@ export default {
             },
             banner: {
                 description: 'A natural solution for urban wastewater',
-                button1: 'Find Out More...',
-                button2: 'Scroll Down'
+                button1: 'Get in contact with us',
             },
             swamp: {
                 title: 'We Put Swamps on Walls',
