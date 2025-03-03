@@ -40,7 +40,7 @@ export const Hero = () => {
               buttonStyle="btn-primary"
               buttonSize="btn--lge"
             >
-              {isShown ? translate('banner.button1') : translate('banner.button2')}
+              {isShown ? translate('banner.button1')}
             </Button>
           </Link>
         </div>
