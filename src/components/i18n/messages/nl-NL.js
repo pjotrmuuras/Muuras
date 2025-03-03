@@ -36,8 +36,7 @@ export default {
         },
         banner: {
             description: 'Een natuurlijke oplossing voor stedelijk afvalwater',
-            button1: 'Meer te weten komen...',
-            button2: 'Naar beneden scrollen'
+            button1: 'Neem contact met ons op',
         },
         swamp: {
             title: 'Wij Maken Moerassen voor op de Muur',
