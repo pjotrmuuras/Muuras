@@ -14,6 +14,12 @@ export const Hero = () => {
 
     return (
         <div className='hero-container'>
+            {/* Background video */}
+            <video autoPlay loop muted className="hero-video">
+                <source src={require('./backgroundvideo.mp4')} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
             <div className='text-container'>
                 <div className='text' data-aos='fade-right'>
                     <h1>Muuras</h1>
