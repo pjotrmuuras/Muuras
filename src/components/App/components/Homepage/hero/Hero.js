@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from 'react'; // Only import useEffect since useState is no longer needed
 import './hero.scss';
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -8,7 +8,6 @@ import translate from '../../../../i18n/translate';
 import videoFile from './backgroundvideo.mp4';  // Import video
 
 export const Hero = () => {
-  const [isShown, setIsShown] = useState(true);
 
   useEffect(() => {
     Aos.init({ duration: 1500 });
@@ -29,18 +28,14 @@ export const Hero = () => {
           <h3>{translate('banner.description')}</h3>
         </div>
 
-        <div
-          className="hero-btns"
-          onMouseEnter={() => setIsShown(false)}
-          onMouseLeave={() => setIsShown(true)}
-        >
+        <div className="hero-btns">
           <Link to="/contact">
             <Button
               className="btn"
               buttonStyle="btn-primary"
               buttonSize="btn--lge"
             >
-              {translate('banner.button1')}
+              {translate('banner.button1')}  {/* Fixed text for the button */}
             </Button>
           </Link>
         </div>
