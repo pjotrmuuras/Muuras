@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'; // Only import useEffect since useState is no longer needed
+import React, { useEffect, useState } from 'react';
 import './hero.scss';
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -8,16 +8,35 @@ import translate from '../../../../i18n/translate';
 import videoFile from './backgroundvideo.mp4';  // Import video
 
 export const Hero = () => {
+  const [isVideoReady, setIsVideoReady] = useState(false);
 
   useEffect(() => {
     Aos.init({ duration: 1500 });
     Aos.refresh({ duration: 1500 });
+
+    // Force video play for iOS and some mobile browsers
+    const video = document.querySelector('.hero-video');
+    if (video) {
+      video.play().catch(error => console.log("Autoplay prevented:", error));
+    }
   }, []);
+
+  const handleVideoLoad = () => {
+    setIsVideoReady(true);
+  };
 
   return (
     <div className="hero-container">
       {/* Video background */}
-      <video autoPlay loop muted className="hero-video" preload="auto">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className={`hero-video ${isVideoReady ? 'visible' : 'hidden'}`}
+        preload="auto"
+        onCanPlayThrough={handleVideoLoad}
+      >
         <source src={videoFile} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
@@ -35,7 +54,7 @@ export const Hero = () => {
               buttonStyle="btn-primary"
               buttonSize="btn--lge"
             >
-              {translate('banner.button1')}  {/* Fixed text for the button */}
+              {translate('banner.button1')}
             </Button>
           </Link>
         </div>
