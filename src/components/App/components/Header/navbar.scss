@@ -24,7 +24,7 @@
 .navbar-logo {
   padding: 0 3px;
   justify-self: start;
-  margin-left: 5px;
+  margin-left: 2.5px;
   cursor: pointer;
   text-decoration: none;
   display: flex;
@@ -33,9 +33,9 @@
   height: 5.4rem; /* doubled the original 2.7rem */
   
   img {
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     font-size: 3rem; /* doubled the original 1.5rem */
-    margin-bottom: 2rem; /* doubled the margin-bottom */
+    margin-bottom: 1rem; /* doubled the margin-bottom */
   }
 }
 
