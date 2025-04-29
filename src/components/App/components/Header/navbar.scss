@@ -24,21 +24,22 @@
 .navbar-logo {
   padding: 0 3px;
   justify-self: start;
-  margin-left: 2.5px; // half of the original 5px
+  margin-left: 2.5px;
   cursor: pointer;
   text-decoration: none;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 5.4rem;
-
+  height: 5.4rem; /* doubled the original 2.7rem */
+  
   img {
-    height: 5rem; // adjust as needed, or use width instead
-    width: auto;  // preserves aspect ratio
-    margin-right: 1rem; 
-    margin-bottom: 1rem; 
+    height: 5.4rem !important; /* override inline height attribute */
+    margin-right: 1rem;
+    font-size: 3rem; /* optional: usually font-size doesn't affect images */
+    margin-bottom: 1rem;
   }
 }
+
 
 
 .nav-flag img:hover {
