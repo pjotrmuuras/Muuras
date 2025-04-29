@@ -24,25 +24,22 @@
 .navbar-logo {
   padding: 0 3px;
   justify-self: start;
-  margin-left: 2px !important; /* Reduced from 5px to 2px to adjust the left margin */
+  margin-left: 2px !important; /* Adjust left margin to allow more space */
   cursor: pointer;
   text-decoration: none;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 5.4rem !important; /* Double the original height of 2.7rem */
+  height: 6rem !important; /* Increased height to make room for a bigger logo */
   
   img {
+    width: 150px !important;  /* Explicitly set width to double the original size */
+    height: auto !important;  /* Maintain aspect ratio */
     margin-right: 1rem;
-    font-size: 3rem !important; /* Double the original font size of 1.5rem */
-    margin-bottom: 1rem !important; /* Increased the margin for better alignment */
-    height: 108px !important; /* Explicitly set the height to double the original size */
-    width: auto !important; /* Maintain aspect ratio */
+    font-size: 3rem !important;  /* Ensure font size adjustment for the logo */
+    margin-bottom: 1rem; /* Adjust bottom margin if necessary */
   }
 }
-
-
-
 
 .nav-flag img:hover {
   cursor: pointer;
