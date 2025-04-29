@@ -24,21 +24,23 @@
 .navbar-logo {
   padding: 0 3px;
   justify-self: start;
-  margin-left: 2.5px;
+  margin-left: 2px !important; /* Reduced from 5px to 2px to adjust the left margin */
   cursor: pointer;
   text-decoration: none;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 5.4rem; /* doubled the original 2.7rem */
+  height: 5.4rem !important; /* Double the original height of 2.7rem */
   
   img {
-    height: 5.4rem !important; /* override inline height attribute */
     margin-right: 1rem;
-    font-size: 3rem; /* optional: usually font-size doesn't affect images */
-    margin-bottom: 1rem;
+    font-size: 3rem !important; /* Double the original font size of 1.5rem */
+    margin-bottom: 1rem !important; /* Increased the margin for better alignment */
+    height: 108px !important; /* Explicitly set the height to double the original size */
+    width: auto !important; /* Maintain aspect ratio */
   }
 }
+
 
 
 
