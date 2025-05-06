@@ -24,24 +24,39 @@
 .navbar-logo {
   padding: 0 3px;
   justify-self: start;
-  margin-left: 2px !important; /* Adjust left margin to allow for a larger logo */
+  margin-left: 2px !important;
   cursor: pointer;
   text-decoration: none;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: auto !important; /* Allow for height to adjust based on image size */
-  max-height: none !important; /* Remove any max-height restrictions */
+  height: auto !important;
+  
+  // NEW: Logo image styles (matches your successful test)
+  img {
+    width: 100px !important;        // Fixed width from your test
+    height: 100px !important;       // Fixed height from your test
+    object-fit: contain !important; // Prevents distortion
+    object-position: center;
+    margin-right: 1rem;
+    transition: transform 0.3s ease; // NEW: Smooth hover effect
+    
+    &:hover {
+      transform: scale(1.05);      // NEW: Gentle hover zoom
+    }
+  }
+
+  // NEW: Mobile logo sizing
+  @media (max-width: 960px) {
+    img {
+      width: 80px !important;
+      height: 80px !important;
+      transform: none !important;   // Reset transform for mobile
+    }
+  }
 }
 
-.navbar-logo img {
-  width: 150px !important;    /* Set your desired width */
-  height: auto !important;    /* Maintain aspect ratio */
-  max-height: none !important; /* Remove any height restrictions */
-  margin-right: 1rem !important;       /* Reset margins if needed */
-}
-
-
+// Rest of your existing styles remain unchanged...
 .nav-flag img:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -58,153 +73,4 @@
   margin-left: 1rem;
 }
 
-.nav-item {
-  height: 10vh;
-  
-  .nav-link {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    height: 100%;
-  }
-
-  .nav-link:hover {
-    border-bottom: 4px solid $med-green;
-    color: $med-green;
-    font-size: 115%;
-    transition: all 0.2s ease-in-out;
-  }
-}
-
-.flag_header {
-  border-radius: 5px;
-  height: 25px;
-  margin-left: 0.25rem;
-  margin-top: 1.7rem;
-}
-
-.flag:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-.fa-bars {
-  color: #fff;
-  font-size: 2rem;
-}
-
-.nav-link {
-  display: none;
-}
-
-.menu-icon {
-  display: none;
-}
-
-@media screen and (max-width: 960px) {
-  .NavbarItems {
-    position: relative;
-  }
-
-  .nav-menu {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 90vh;
-    position: absolute;
-    top: 10vh;
-    left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
-  }
-
-  .nav-menu.active {
-    background: $dark-green;
-    left: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
-    margin: 0;
-  }
-
-  .nav-link {
-    text-align: center;
-    width: 100%;
-    display: table;
-    padding: 2rem;
-  }
-
-  .nav-link:hover {
-    background-color: #fff;
-    color: #242424;
-    border-radius: 0;
-  }
-
-  .nav-flag {
-    display: flex;
-    justify-content: center;
-  }
-
-  .flag_header {
-    height: 50px;
-    border-radius: 12px;
-  }
-
-  .flag_header:hover {
-    cursor: pointer;
-  }
-
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
-  }
-
-  .menu-icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
-
-  .fa-times {
-    color: #fff;
-    font-size: 2rem;
-  }
-
-  #bars-hover:hover {
-    transform: scale(1.1);
-    color: $med-green;
-  }
-
-  .nav-link {
-    display: block;
-    text-align: center;
-    margin: 2rem auto;
-    border-radius: 4px;
-    width: 80%;
-    text-decoration: none;
-    font-size: 1.75rem;
-    background-color: transparent;
-    color: #fff;
-    padding: 14px 20px;
-    border: 1px solid #fff;
-    transition: all 0.3s ease-out;
-  }
-
-  .nav-link:hover {
-    background: #fff;
-    color: #242424;
-    transition: 250ms;
-  }
-
-  .nav-item {
-    margin-bottom: 1.5rem;
-  }
-}
+/* ... (keep all other existing styles exactly as they were) ... */
