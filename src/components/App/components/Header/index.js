@@ -26,7 +26,7 @@ const Header = () => {
             <div className='navbar-container'>
                 <div className='logo-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMenuMobile}>
-                        <img src='img/logo-navbar.png' alt='' height={75}/>
+                        <img src='img/logo-navbar.png' alt='' />
                     </Link>
                 </div>
 
