@@ -35,12 +35,10 @@
 }
 
 .navbar-logo img {
-  width: 150px !important;  /* Double the width of the logo */
-  height: auto !important;  /* Maintain aspect ratio */
-  margin-right: 1rem;
-  font-size: 3rem !important;  /* Larger font size if necessary */
-  margin-bottom: 1rem;
-  max-width: 100% !important;  /* Ensure image doesn’t shrink */
+  width: 150px !important;    /* Set your desired width */
+  height: auto !important;    /* Maintain aspect ratio */
+  max-height: none !important; /* Remove any height restrictions */
+  margin-right: 1rem !important;       /* Reset margins if needed */
 }
 
 
