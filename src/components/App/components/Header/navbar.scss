@@ -31,25 +31,6 @@
   justify-content: flex-start;
   align-items: center;
   height: auto !important;
-
-  img {
-    width: 100px !important;
-    height: 100px !important;
-    object-fit: contain !important;
-    object-position: center;
-    margin-right: 1rem;
-    transition: transform 0.3s ease;
-
-    &:hover {
-      transform: scale(1.05);
-    }
-
-    @media (max-width: 960px) {
-      width: 80px !important;
-      height: 80px !important;
-      transform: none !important;
-    }
-  }
 }
 
 .nav-flag img:hover {
@@ -70,7 +51,7 @@
 
 .nav-item {
   height: 10vh;
-
+  
   .nav-link {
     color: #fff;
     display: flex;
@@ -219,10 +200,26 @@
   }
 }
 
-/* ✅ Add this at the bottom to style the actual logo image class */
+/* ===== LOGO STYLES ===== */
 .header-logo-img {
+  /* Core sizing */
   width: 150px !important;
-  height: auto !important;
+  height: 150px !important;
   object-fit: contain !important;
-  object-position: center !important;
+  
+  /* Layout */
+  margin-right: 1rem;
+  display: block;
+  
+  /* Interactions */
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  /* Mobile */
+  @media (max-width: 960px) {
+    width: 100px !important;
+    height: 100px !important;
+  }
 }
