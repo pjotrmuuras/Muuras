@@ -26,7 +26,17 @@ const Header = () => {
             <div className='navbar-container'>
                 <div className='logo-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMenuMobile}>
-                        <img src="img/logo-navbar.png" alt="" className="header-logo-img" />
+                        {/* Updated Logo with proper attributes */}
+                        <img 
+                          src="img/logo-navbar.png" 
+                          alt="Muuras Logo" 
+                          className="header-logo-img"
+                          style={{ 
+                            display: 'block',
+                            width: '150px',
+                            height: '150px'
+                          }}
+                        />
                     </Link>
                 </div>
 
@@ -60,15 +70,26 @@ const Header = () => {
                             {translate('menu.contact')}
                         </Link>
                     </li>
-                    {/* <div className='nav-flags'> */}
                     <li className='nav-flag'>
-                        {state.locale === LOCALES.DUTCH ? <img src='./img/uk-flag.jpg' alt='english' title='Switch Language' className='flag_header' onClick={() => setLanguage(LOCALES.ENGLISH)} /> : null}
-                        {state.locale === LOCALES.ENGLISH ?<img className='flag_header' src='./img/netherlands-flag.jpg' alt='dutch' title='Switch Language' onClick={() => setLanguage(LOCALES.DUTCH)}/> : null}
-                    
-                      {/* <img src='./img/uk-flag.jpg' alt='english' className='flag' onClick={() => setLanguage(LOCALES.ENGLISH)} disabled={state.locale === LOCALES.ENGLISH} /> */}
-                    {/* <img className='flag' src='./img/netherlands-flag.jpg' alt='dutch' disabled={state.locale === LOCALES.DUTCH} onClick={() => setLanguage(LOCALES.DUTCH)}/> */}
+                        {state.locale === LOCALES.DUTCH ? (
+                            <img 
+                              src='./img/uk-flag.jpg' 
+                              alt='english' 
+                              title='Switch Language' 
+                              className='flag_header' 
+                              onClick={() => setLanguage(LOCALES.ENGLISH)} 
+                            />
+                        ) : null}
+                        {state.locale === LOCALES.ENGLISH ? (
+                            <img 
+                              className='flag_header' 
+                              src='./img/netherlands-flag.jpg' 
+                              alt='dutch' 
+                              title='Switch Language' 
+                              onClick={() => setLanguage(LOCALES.DUTCH)}
+                            />
+                        ) : null}
                     </li>
-                    {/* </div> */}
                 </ul>             
             </div>
         </nav>
