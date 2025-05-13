@@ -61,7 +61,7 @@ export default {
                     name: 'Felipe',
                     img: 'img/felipe.jpg',
                     alt: 'Felipe',
-                    info: 'Felipe is an Environmental Engineer with MSc in Water Technology. In addition to being a member of Muuras, he is doing a PhD at the University of Twente in the field of Chemical Engineering.'
+                    info: 'Felipe is an Environmental Engineer with a MSc in Water Technology. In addition to being a member of Muuras, he is doing a PhD at the University of Twente in the field of Chemical Engineering.'
                 }
             },
             whatWeDo: {
