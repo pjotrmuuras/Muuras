@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 import { Button } from '../../Button/Button';
 import translate from '../../../../i18n/translate';
-import videoFile from './backgroundvideo.mp4';  // Import video
+// import videoFile from './backgroundvideo.mp4';  // Commented out video import
 
 export const Hero = () => {
   const [isVideoReady, setIsVideoReady] = useState(false);
@@ -14,20 +14,22 @@ export const Hero = () => {
     Aos.init({ duration: 1500 });
     Aos.refresh({ duration: 1500 });
 
-    // Force video play for iOS and some mobile browsers
-    const video = document.querySelector('.hero-video');
-    if (video) {
-      video.play().catch(error => console.log("Autoplay prevented:", error));
-    }
+    // Commented out autoplay logic
+    // const video = document.querySelector('.hero-video');
+    // if (video) {
+    //   video.play().catch(error => console.log("Autoplay prevented:", error));
+    // }
   }, []);
 
-  const handleVideoLoad = () => {
-    setIsVideoReady(true);
-  };
+  // Commented out handler
+  // const handleVideoLoad = () => {
+  //   setIsVideoReady(true);
+  // };
 
   return (
     <div className="hero-container">
-      {/* Video background */}
+      {/* Commented out video background */}
+      {/*
       <video
         autoPlay
         loop
@@ -40,6 +42,7 @@ export const Hero = () => {
         <source src={videoFile} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      */}
 
       <div className="text-container">
         <div className="text" data-aos="fade-right">
@@ -62,3 +65,4 @@ export const Hero = () => {
     </div>
   );
 };
+
