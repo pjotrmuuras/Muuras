@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 import { Button } from '../../Button/Button';
 import translate from '../../../../i18n/translate';
-// import videoFile from './backgroundvideo.mp4';  // Commented out video import
+import videoFile from './backgroundvideo.mp4';  // Import video
 
 export const Hero = () => {
   const [isVideoReady, setIsVideoReady] = useState(false);
@@ -14,35 +14,32 @@ export const Hero = () => {
     Aos.init({ duration: 1500 });
     Aos.refresh({ duration: 1500 });
 
-    // Commented out autoplay logic
-    // const video = document.querySelector('.hero-video');
-    // if (video) {
-    //   video.play().catch(error => console.log("Autoplay prevented:", error));
-    // }
+    // Force video play for iOS and some mobile browsers
+    const video = document.querySelector('.hero-video');
+    if (video) {
+      video.play().catch(error => console.log("Autoplay prevented:", error));
+    }
   }, []);
 
-  // Commented out handler
-  // const handleVideoLoad = () => {
-  //   setIsVideoReady(true);
-  // };
+  const handleVideoLoad = () => {
+    setIsVideoReady(true);
+  };
 
   return (
     <div className="hero-container">
-      {/* Commented out video background */}
-      {/*
+      {/* Video background */}
       <video
         autoPlay
         loop
         muted
         playsInline
-        className={`hero-video ${isVideoReady ? 'visible' : 'hidden'}`}
+        className={hero-video ${isVideoReady ? 'visible' : 'hidden'}}
         preload="auto"
         onCanPlayThrough={handleVideoLoad}
       >
         <source src={videoFile} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      */}
 
       <div className="text-container">
         <div className="text" data-aos="fade-right">
@@ -65,4 +62,3 @@ export const Hero = () => {
     </div>
   );
 };
-
