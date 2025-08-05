@@ -14,7 +14,7 @@ export default {
             SowflowData: {
                 title: 'SoW & FloW: Collaborative experimentation',
                 date: 'November 2021 – November 2022',
-                description: 'Muuras is continuously optimizing the functioning and safety of our vertical constructed wetlands. In collaboration with innovators from our partners NHL Stenden, Greenwave Systems, and Wetsus, we are testing different combinations of substrate, wetland plants and wastewater mixes at Leeuwarden’s WaterCampus.',
+                description: 'Muuras continuously optimizing the functioning and safety of our vertical constructed wetlands. In collaboration with innovators from our partners NHL Stenden, Greenwave Systems, and Wetsus, we are testing different combinations of substrate, wetland plants and wastewater mixes at Leeuwarden’s WaterCampus.',
                 button: 'Learn More'
             },
             DinsdagData: {
